@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>ProductTourt</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/chitiettour.css">
+  <link rel="stylesheet" type="text/css" href="css/responsive.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/header.css">
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+  <link rel="stylesheet" href="css/jquery-ui.css">
+
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+
+  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="site-wrap">
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+  </div>
+  <header class="site-navbar auto-hide-header" role="banner">
+    <nav class="top-nav container-custom">
+      <a href="/" class="logo">
+        <img src="images/icons/logo.jpg" width="100px" height="auto" alt="danasea">
+      </a>
+      <div class="filter-bar">
+        <div class="filter-nav-title">
+          <div class="company_name">
+            <h1>CÔNG TY CỔ PHẦN DU LỊCH DANASEA</h1>
+            <p>HOTLINE: (+84)899206999 </p>
+          </div>
+        </div>
+        <div class="filter-nav-under">
+          <div id="searchtour">
+            <div class="container">
+              <div class="row">
+                <div class="toursearchbar">
+                  <div class="search-caption">
+                    <span></span>
+                  </div>
+                  <div class="triangle-right">
+                  </div>
+                  <div class="search-frm">
+                    <label>
+                      <input type="radio" name="radiotour" id="trongnuoc" value="1" checked=""> Trong nước
+                    </label>
+                    <label>
+                      <input type="radio" name="radiotour" id="nuocngoai" value="2"> Nước ngoài
+                    </label>
+                    <div class="dropdown">
+                      <select class="form-control select_f_search" id="select_f_search_km">
+                        <option value="0">Lừa Chọn Địa Điểm</option>
+                        <option value="1">Đà Nẵng</option>
+                        <option value="2">Đắk Lắk</option>
+                      </select>
+                    </div>
+                    <div class="dropdown">
+                      <select class="form-control select_f_search" id="select_f_search_km">
+                        <option value="0">Tất cả</option>
+                        <option value="1">Khuyến mãi</option>
+                      </select>
+                    </div>
+                    <button type="button" class="btnsearchtour">
+                      <span class="triangle-left01">
+                      </span>
+                      <span class="btntext"></span>
+                      <span class="triangle-right01"></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <nav class="container-custom">
+      <div class="row">
+        <div class="col-12 col-md-12 d-none d-xl-block">
+          <nav class="site-navigation position-relative text-right text-lg-center" role="navigation">
+
+            <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
+              <li class="active">
+                <a href="#">
+                  <img alt="" src="images/icons/logo-home.png" width="35px">
+                </a>
+              </li>
+              <li class="has-children">
+                <a href="#">Du Lịch Trong Nước</a>
+                <ul class="dropdown">
+                  <li><a href="#" title="Du Lịch Miền Bắc">Du Lịch Miền Bắc</a></li>
+                  <li><a href="#" title="Du Lịch Miền Trung">Du Lịch Miền Trung</a></li>
+                  <li><a href="#" title="Du Lịch Miền Nam" target="_blank" rel="nofollow">Du Lịch Miền Nam</a>
+                  </li>
+                  <li><a href="#" title="Chùm Tour Nghỉ Lễ" target="_blank" rel="nofollow">Chùm Tour Nghỉ Lễ</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="has-children">
+                <a href="#">Du Lịch Nước Ngoài</a>
+                <ul class="dropdown">
+                  <li><a href="#" title="Du Lịch Châu Âu">Du Lịch Châu Âu</a></li>
+                  <li><a href="#" title="Du Lịch Châu Mỹ">Du Lịch Châu Mỹ</a></li>
+                  <li><a href="#" title="Du Lịch Châu Á" target="_blank" rel="nofollow">Du Lịch Châu Á</a></li>
+                  <li><a href="#" title="Du Lịch Châu Úc" target="_blank" rel="nofollow">Du Lịch Châu Úc</a></li>
+                  <li><a href="#" title="Du Lịch Châu Phi" target="_blank" rel="nofollow">Du Lịch Châu Phi</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="has-children">
+                <a href="#">Du Lịch Khách Đoàn</a>
+                <ul class="dropdown">
+                  <li><a href="#" title="Tour MICE">Tour MICE</a></li>
+                  <li><a href="#" title="Tổ Chức Teambuildingi">Tổ Chức Teambuilding</a></li>
+                  <li><a href="#" title="Tour Mới Lạ" target="_blank" rel="nofollow">Tour Mới Lạ</a></li>
+                  <li><a href="#" title="Tour Gia Đình" target="_blank" rel="nofollow">Tour Gia Đình</a></li>
+                  <li><a href="#" title="Tour Caravan" target="_blank" rel="nofollow">Tour Caravan</a></li>
+                  <li><a href="#" title="Tour Chuyên Đề" target="_blank" rel="nofollow">Tour Chuyên Đề</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Khách sạn</a></li>
+              <li class="has-children">
+                <a href="#">Vận chuyển</a>
+                <ul class="dropdown">
+                  <li><a href="#" title="Thuê xe" target="_blank" rel="nofollow">Thuê xe</a>
+                  </li>
+                  <li><a href="#" title="Vé máy bay" target="_blank" rel="nofollow">Vé máy bay
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="has-children">
+                <a href="#">Tin tức</a>
+                <ul class="dropdown">
+                  <li><a href="#" title="Thuê xe" target="_blank" rel="nofollow">Khuyến Mãi</a>
+                  </li>
+                  <li><a href="#" title="Vé máy bay" target="_blank" rel="nofollow">Khuyến
+                      mại Xuân 2019
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li><a href="#">Liên hệ</a></li>
+              <li class="has-children">
+                <a href="#">Dịch vụ Khách Hàng</a>
+                <ul class="dropdown">
+                  <li><a href="#" title="Thuê xe" target="_blank" rel="nofollow">Khách Sạn</a>
+                  </li>
+                  <li><a href="#" title="Vé máy bay" target="_blank" rel="nofollow">Làm Visa
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-6 col-xl-2 text-right">
+          <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#"
+              class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- End content -->
+  <!-- main -->
+  <div id="main-content" class="web-content">
+    <div class="container">
+      <div class="row">
+        <div class="col-sx-12" id="lr_ct">
+          <ul class="mda-nav-sup clearfix">
+            <li itemscope="" itemtype="#"><a itemprop="url" title="Trang chủ" href="/"><span itemprop="title">Trang
+                  chủ</span></a></li>
+            <li itemscope="" itemtype="#"><a itemprop="url" href="/du-lich-trong-nuoc"><i
+                  class="fa fa-caret-right"></i><span itemprop="title">Du Lịch Trong Nước</span></a></li>
+            <li itemscope="" itemtype="#"><a itemprop="url" href="/du-lich-mien-trung"><i
+                  class="fa fa-caret-right"></i><span itemprop="title">Du lịch Miền Trung</span></a></li>
+            <li itemscope="" itemtype=""><a itemprop="url" href=""><i class="fa fa-caret-right"></i><span
+                  itemprop="title">Du Lịch Phú
+                  Yên</span></a></li>
+            <li itemscope="" itemtype="><a itemprop=" url" href=""><i class="fa fa-caret-right"></i><span
+                itemprop="title">Du lịch Quy Nhơn - Phú Yên 4 Ngày Khởi Hành Từ
+                Sài Gòn</span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row border-top"></div>
+      <div class="row row_ct">
+        <div class="col-md-9 col-left">
+          <h1 class="mda-info-title mt-4">(SG320.5) Tour du lịch: Lâm Viên Cần Giờ | Đảo Khỉ | Chiến Khu Rừng Sác (1
+            ngày) </h1>
+          <div class="mda-info-share mt-2">
+            <div class="mda-rating">
+              <div class="rating" data-value="4.68" data-index="64">
+                <div data-id="5444u25354" class="rating-star rating-tour" style="cursor: pointer;">
+                  <img alt="1" src="images/icons/star-on.png" title="bad">&nbsp;
+                  <img alt="2" src="images/icons/star-on.png" title="poor">&nbsp;
+                  <img alt="3" src="images/icons/star-on.png" title="regular">&nbsp;
+                  <img alt="4" src="images/icons/star-on.png" title="good">&nbsp;
+                  <img alt="5" src="images/icons/star-half-mono.png" title="gorgeous"><input name="score" type="hidden"
+                    value="4.68"></div>
+                <div class="rating-tt">
+                  <span>
+                    <b><span class="rating-value">4.15</span>/<span>5</span></b>
+                    trong <b><span class="rating-count">96</span></b> ĐÁNH GIÁ</span>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+          <div class="mt-4 clearfix">
+            <div style="text-align: justify;">&nbsp;</div>
+            <div style="text-align: justify;">
+              <span style="color:#01C675;">
+                <span style="font-size:22px;"><strong>
+                    <span>Quy Nhơn - Hòn Khô - Eo Gió - Kdl Hầm Hô - Phú Yên - Gành Đá Đĩa</span></strong>
+                </span>
+              </span>
+            </div>
+            <div class="info-list" style="color:#2698eb;">
+              <div class="info">
+                <i class="fa fa-braille"></i>
+                <span class="info-label matour">Mã tour:</span>
+                <span>Noi1-3693-19022019</span>
+              </div>
+              <div class="info" style="color:#2698eb;">
+                <i class="fa fa-users"></i>
+                <span class="info-label controng">Số chỗ còn:</span>
+                <span>45 chỗ</span>
+              </div>
+              <div class="info" style="color:#2698eb;">
+                <span class="info-label place">Điểm khởi hành:</span>
+                <span>
+                  Hồ Chí Minh
+                </span>
+              </div>
+              <div class="info" style="color:#2698eb;">
+                <i class="fa fa-calendar"></i>
+                <span class="info-label calendar">Ngày khởi hành:</span>
+                <p>26/03/2019 <a href="#price" class="text-pink">Ngày khác</a></p>
+              </div>
+              <div class="info" style="color:#2698eb;">
+                <i class="fa fa-clock-o"></i>
+                <span class="info-label thoigian">Thời gian:</span> <span>1 ngày 0 đêm</span>
+              </div>
+              <div class="info" style="color:#2698eb;">
+                <i class="fa fa-users"></i>
+                <span class="info-label loaitour">Loại Tour: </span> Tour khách lẻ </div>
+              <div class="info" style="color:#2698eb;">
+                <i class="fa fa-header"></i>
+                <span class="info-label hotel">Khách sạn:</span> Tiêu chuẩn </div>
+            </div>
+            <div style="text-align: justify;">Với vị trí là một trong ba trung tâm du lịch lớn trên bản đồ du lịch Việt
+              Nam, Đà Nẵng thành phố biển xinh đẹp hiền hòa và mếm khách, nơi mà bạn có thể dễ dàng đến được bằng cả
+              đường bộ, đường hàng không và đường thủy. Một dấu ấn địa lý và lịch sử, điểm t…
+            </div>
+            <span style="clear:both; float: right; margin: 10px 0; color: #29c314; cursor: pointer;" id="xemthem"
+              data-id="13384" data-table="tour">Xem thêm <i class="fa fa-angle-double-right"></i></span>
+            <div style="clear: both;">&nbsp;</div>
+          </div>
+          <section class="slider">
+            <div class="mySlides">
+              <div class="numbertext">1 / 6</div>
+              <img src="images/icons/tl2.jpg" style="width:900px">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">2 / 6</div>
+              <img src="images/icons/hoian.jpg" style="width:900px">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">3 / 6</div>
+              <img src="images/icons/tl2.jpg" style="width:900px">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">4 / 6</div>
+              <img src="images/icons/tl2.jpg" style="width:900px">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">5 / 6</div>
+              <img src="images/icons/tl2.jpg" style="width:900px">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">6 / 6</div>
+              <img src="images/icons/tl2.jpg" style="width:900px">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            <div class="row">
+              <div class="column">
+                <img class="demo cursor" src="images/icons/tl2.jpg" style="width:100px" onclick="currentSlide(1)">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="images/icons/hoian.jpg" style="width:100px" onclick="currentSlide(2)">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="images/icons/tl2.jpg" style="width:100px" onclick="currentSlide(3)">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="images/icons/tl2.jpg" style="width:100px" onclick="currentSlide(4)">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="images/icons/tl2.jpg" style="width:100px" onclick="currentSlide(5)">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="images/icons/tl2.jpg" style="width:100px" onclick="currentSlide(6)">
+              </div>
+            </div>
+          </section>
+          <div id="dichvu" class="mt-5 mb-15 txt_pink text-uppercase ">Dịch vụ đi kèm</div>
+          <div class="bg-light  service-contain">
+            <ul class="list-unstyled service-list">
+              <li class="service-item">
+                <img src="images/icons/icon_oto.png">
+                  <span></span>
+              </li>
+              <li class="service-item">
+                  <img src="images/icons/icon_thucdon.png">
+                    <span></span>
+              </li>
+              <li class="service-item">
+                <img src="images/icons/icon_checkig.png">
+                  <span></span>
+              </li>
+              <li class="service-item">
+                  <img src="images/icons/icon_qua.png">
+                    <span></span>
+              </li>
+            </ul>
+          </div>
+          <div id="lichtrinh" class="mt-5 mb-15 txt_pink text-uppercase">Lịch trình tour</div>
+          <div class="bg-light">
+            <div id="mda-schedule">
+              <ul>
+                <li class="clearfix">
+                  <div class="mda-rl">
+                    <p>NGÀY 1</p>
+                    <img class="lazy" src="images/icons/icon-tranpost.png"
+                      data-original="images/icons/icon-tranpost.png" style="display: inline;">
+                  </div>
+                  <div class="mda-rr">
+                    <div class="mda-title">
+                      <i class="fa fa-circle"></i> TP.HCM – TUY HOÀ – GÀNH ĐÁ DĨA (ăn trưa, chiều)
+                    </div>
+                    <div class="mda-day">
+                      <i class="fa fa-circle"></i>
+                      <div style="text-align: justify;">Sáng: Quý khách có mặt tại ga quốc nội, sân bay Tân Sơn Nhất
+                        trước giờ bay ít nhất ba tiếng.<br>
+                        Đại diện công ty Du Lịch Việt đón và hỗ trợ Quý Khách làm thủ tục đón chuyến bay đi Tuy
+                        Hoà.&nbsp;<br>
+                        Đến sân bay Tuy Hoà, Hướng dẫn viên đón đoàn viếng nhà thờ Mằng Lăng - một trong những nhà thờ
+                        cổ nhất Việt Nam mang đậm dấu ấn kiến trúc thế kỷ XIX. Đây cũng là nơi lưu giữ cuốn sách chữ
+                        quốc ngữ đầu tiên - Phép giảng tám ngày của linh mục Alexandre de Rhodes in năm 1651 tại Roma,
+                        Ý.<br>
+                        Tham quan Gành Đá Dĩa, một danh thắng thiên nhiên kỳ thú về cảnh quan và độc đáo về địa chất ở
+                        Việt Nam (danh thắng quốc gia) những khối đá đen huyền hình lăng trụ độc đáo, trông xa như một
+                        tổ ong khổng lồ nằm bình yên bên bờ biển.<br>
+                        Đoàn đến đầm Ô Loan ngắm vẻ đẹp thanh bình với không gian thoáng đãng, khí hậu trong lành, mát
+                        mẻ và thưởng thức những món hải sản đậm đà hương vị miền Trung, du khách mới có thể cảm nhận hết
+                        được vẻ đẹp của vùng đất Phú Yên thơ mộng.</div>
+                    </div>
+                    <div class="mda-day"><i class="fa fa-circle"></i>
+                      <div style="text-align: justify;">Trưa: Dùng cơm trưa.&nbsp;<br>
+                        Đoàn khởi hành đến Bãi Xép (Gành Xép) một bãi cát vàng óng kéo dài giữa hai mũi đá lớn nhô ra
+                        biển, bãi như một thiên đường hoang sơ với cảnh quan rất đẹp phía Bắc thành phố Tuy Hòa, vẫn giữ
+                        được nguyên vẹn vẻ hoang sơ, bãi cát màu hồng, kéo dài hơn 1km từ Gành Xép. Ấn tượng hơn cả là
+                        bãi cỏ rộng mênh mông trên đỉnh Gành Xép xuất hiện đầy thơ mộng trong bộ phim Tôi thấy hoa vàng
+                        trên cỏ xanh, Gành Xép với vẻ đẹp tổng hòa của biển, đá, đồng cỏ, phi lao và mây trời đang trở
+                        thành điểm đến thu hút du khách khi đến Phú Yên.&nbsp;<br>
+                        Tại đây du khách có thể lưu lại những bức hình kỉ niệm với các bãi đá đen, cát vàng óng, bãi cỏ
+                        rộng mênh mông hoặc tắm biển tận hưởng bãi biển đẹp hoang sơ.</div>
+                    </div>
+                    <div class="mda-day"><i class="fa fa-circle"></i>Chiều: Dùng cơm chiều. Nghỉ đêm tại Tuy Hoà.<br>
+                      Quý khách tự do mua sắm các đặc sản Phú Yên như: khô cá ngừ đại dương, bò một nắng hai sương, muối
+                      kiến vàng lá then leng…</div>
+                  </div>
+                </li>
+                <li class="clearfix">
+                    <div class="mda-rl">
+                      <p>NGÀY 2</p>
+                      <img class="lazy" src="images/icons/icon-xe.png"
+                        data-original="images/icons/icon-xe.png" style="display: inline;">
+                    </div>
+                    <div class="mda-rr">
+                      <div class="mda-title">
+                        <i class="fa fa-circle"></i> TP.HCM – TUY HOÀ – GÀNH ĐÁ DĨA (ăn trưa, chiều)
+                      </div>
+                      <div class="mda-day">
+                        <i class="fa fa-circle"></i>
+                        <div style="text-align: justify;">Sáng: Quý khách có mặt tại ga quốc nội, sân bay Tân Sơn Nhất
+                          trước giờ bay ít nhất ba tiếng.<br>
+                          Đại diện công ty Du Lịch Việt đón và hỗ trợ Quý Khách làm thủ tục đón chuyến bay đi Tuy
+                          Hoà.&nbsp;<br>
+                          Đến sân bay Tuy Hoà, Hướng dẫn viên đón đoàn viếng nhà thờ Mằng Lăng - một trong những nhà thờ
+                          cổ nhất Việt Nam mang đậm dấu ấn kiến trúc thế kỷ XIX. Đây cũng là nơi lưu giữ cuốn sách chữ
+                          quốc ngữ đầu tiên - Phép giảng tám ngày của linh mục Alexandre de Rhodes in năm 1651 tại Roma,
+                          Ý.<br>
+                          Tham quan Gành Đá Dĩa, một danh thắng thiên nhiên kỳ thú về cảnh quan và độc đáo về địa chất ở
+                          Việt Nam (danh thắng quốc gia) những khối đá đen huyền hình lăng trụ độc đáo, trông xa như một
+                          tổ ong khổng lồ nằm bình yên bên bờ biển.<br>
+                          Đoàn đến đầm Ô Loan ngắm vẻ đẹp thanh bình với không gian thoáng đãng, khí hậu trong lành, mát
+                          mẻ và thưởng thức những món hải sản đậm đà hương vị miền Trung, du khách mới có thể cảm nhận hết
+                          được vẻ đẹp của vùng đất Phú Yên thơ mộng.</div>
+                      </div>
+                      <div class="mda-day"><i class="fa fa-circle"></i>
+                        <div style="text-align: justify;">Trưa: Dùng cơm trưa.&nbsp;<br>
+                          Đoàn khởi hành đến Bãi Xép (Gành Xép) một bãi cát vàng óng kéo dài giữa hai mũi đá lớn nhô ra
+                          biển, bãi như một thiên đường hoang sơ với cảnh quan rất đẹp phía Bắc thành phố Tuy Hòa, vẫn giữ
+                          được nguyên vẹn vẻ hoang sơ, bãi cát màu hồng, kéo dài hơn 1km từ Gành Xép. Ấn tượng hơn cả là
+                          bãi cỏ rộng mênh mông trên đỉnh Gành Xép xuất hiện đầy thơ mộng trong bộ phim Tôi thấy hoa vàng
+                          trên cỏ xanh, Gành Xép với vẻ đẹp tổng hòa của biển, đá, đồng cỏ, phi lao và mây trời đang trở
+                          thành điểm đến thu hút du khách khi đến Phú Yên.&nbsp;<br>
+                          Tại đây du khách có thể lưu lại những bức hình kỉ niệm với các bãi đá đen, cát vàng óng, bãi cỏ
+                          rộng mênh mông hoặc tắm biển tận hưởng bãi biển đẹp hoang sơ.</div>
+                      </div>
+                      <div class="mda-day"><i class="fa fa-circle"></i>Chiều: Dùng cơm chiều. Nghỉ đêm tại Tuy Hoà.<br>
+                        Quý khách tự do mua sắm các đặc sản Phú Yên như: khô cá ngừ đại dương, bò một nắng hai sương, muối
+                        kiến vàng lá then leng…</div>
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <div class="mda-rl">
+                      <p>NGÀY 3</p>
+                      <img class="lazy" src="images/icons/icon-tranpost.png"
+                        data-original="images/icons/icon-tranpost.png" style="display: inline;">
+                    </div>
+                    <div class="mda-rr">
+                      <div class="mda-title">
+                        <i class="fa fa-circle"></i> QUY NHƠN – TP.HCM (ăn sáng)
+                      </div>
+                      <div class="mda-day">
+                        <i class="fa fa-circle"></i>
+                        <div style="text-align: justify;">Sáng: Quý khách có mặt tại ga quốc nội, sân bay Tân Sơn Nhất
+                          trước giờ bay ít nhất ba tiếng.<br>
+                          Đại diện công ty Du Lịch Việt đón và hỗ trợ Quý Khách làm thủ tục đón chuyến bay đi Tuy
+                          Hoà.&nbsp;<br>
+                          Đến sân bay Tuy Hoà, Hướng dẫn viên đón đoàn viếng nhà thờ Mằng Lăng - một trong những nhà thờ
+                          cổ nhất Việt Nam mang đậm dấu ấn kiến trúc thế kỷ XIX. Đây cũng là nơi lưu giữ cuốn sách chữ
+                          quốc ngữ đầu tiên - Phép giảng tám ngày của linh mục Alexandre de Rhodes in năm 1651 tại Roma,
+                          Ý.<br>
+                          Tham quan Gành Đá Dĩa, một danh thắng thiên nhiên kỳ thú về cảnh quan và độc đáo về địa chất ở
+                          Việt Nam (danh thắng quốc gia) những khối đá đen huyền hình lăng trụ độc đáo, trông xa như một
+                          tổ ong khổng lồ nằm bình yên bên bờ biển.<br>
+                          Đoàn đến đầm Ô Loan ngắm vẻ đẹp thanh bình với không gian thoáng đãng, khí hậu trong lành, mát
+                          mẻ và thưởng thức những món hải sản đậm đà hương vị miền Trung, du khách mới có thể cảm nhận hết
+                          được vẻ đẹp của vùng đất Phú Yên thơ mộng.</div>
+                      </div>
+                      <div class="mda-day"><i class="fa fa-circle"></i>
+                        <div style="text-align: justify;">Trưa: Dùng cơm trưa.&nbsp;<br>
+                          Đoàn khởi hành đến Bãi Xép (Gành Xép) một bãi cát vàng óng kéo dài giữa hai mũi đá lớn nhô ra
+                          biển, bãi như một thiên đường hoang sơ với cảnh quan rất đẹp phía Bắc thành phố Tuy Hòa, vẫn giữ
+                          được nguyên vẹn vẻ hoang sơ, bãi cát màu hồng, kéo dài hơn 1km từ Gành Xép. Ấn tượng hơn cả là
+                          bãi cỏ rộng mênh mông trên đỉnh Gành Xép xuất hiện đầy thơ mộng trong bộ phim Tôi thấy hoa vàng
+                          trên cỏ xanh, Gành Xép với vẻ đẹp tổng hòa của biển, đá, đồng cỏ, phi lao và mây trời đang trở
+                          thành điểm đến thu hút du khách khi đến Phú Yên.&nbsp;<br>
+                          Tại đây du khách có thể lưu lại những bức hình kỉ niệm với các bãi đá đen, cát vàng óng, bãi cỏ
+                          rộng mênh mông hoặc tắm biển tận hưởng bãi biển đẹp hoang sơ.</div>
+                      </div>
+                      <div class="mda-day"><i class="fa fa-circle"></i>Chiều: Dùng cơm chiều. Nghỉ đêm tại Tuy Hoà.<br>
+                        Quý khách tự do mua sắm các đặc sản Phú Yên như: khô cá ngừ đại dương, bò một nắng hai sương, muối
+                        kiến vàng lá then leng…</div>
+                    </div>
+                  </li>
+              </ul>
+            </div>
+          </div>
+          <div id="lichkhtour" class="mt-5 mb-15 txt_pink text-uppercase">LỊCH KHỞI HÀNH</div>
+          <table id="scheduleTable" class="price-table">
+              <thead>
+                <tr>
+                  <th>STT</th>
+                  <th>Ngày khởi hành</th>
+                  <th>Tiêu chuẩn khách sạn</th>
+                  <th>Giá từ</th>
+                 <!--<th>Số chỗ còn</th>-->
+                  <th>Đặt tour</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>26/03/2019</td>
+                  <td> Tiêu chuẩn </td>
+                  <td class="text-semi">1.449.000đ</td>
+                  <td><a class="btn btn-danger" href="#">Book</a>
+                  </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>26/03/2019</td>
+                    <td> Tiêu chuẩn </td>
+                    <td class="text-semi">1.449.000đ</td>
+                    <td><a class="btn btn-danger" href="#">Book</a>
+                    </td>
+                  </tr> 
+              </tbody>
+          </table>
+          <div id="ghichu" class="mt-5 mb-15 txt_pink text-uppercase">GHI CHÚ</div>
+          <div class="notes">
+              <table border="1" cellspacing="0" class="MsoTableGrid" style="-webkit-text-stroke-width:0px;background-color:#ffffff;border-collapse:collapse;border-spacing:0px;box-sizing:border-box;color:#333333;font-family:&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-transform:none;white-space:normal;widows:2;width:100%;word-spacing:0px;">
+                <tbody>
+                  <tr>
+                    <td rowspan="2" style="background-color:#ffffff">
+                    <p style="margin-left:0px; margin-right:0px; text-align:center"><strong>MÃ TOUR</strong></p>
+                    </td>
+                    <td colspan="3" style="background-color:#ffffff">
+                    <p style="margin-left:0px; margin-right:0px; text-align:center"><strong>GIÁ TOUR / KHÁCH (VNĐ)</strong></p>
+                    </td>
+                    <td rowspan="2" style="background-color:#ffffff">
+                    <p style="margin-left:0px; margin-right:0px; text-align:center"><strong>GHI CHÚ</strong></p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color:#ffffff">
+                    <p style="margin-left:0px; margin-right:0px; text-align:center"><strong>Người lớn</strong></p>
+                    </td>
+                    <td style="background-color:#ffffff">
+                    <p style="margin-left:0px; margin-right:0px; text-align:center"><strong>Trẻ em (5-10 tuổi)</strong></p>
+                    </td>
+                    <td style="background-color:#ffffff">
+                    <p style="margin-left:0px; margin-right:0px; text-align:center"><strong>Trẻ em (2-5 tuổi)</strong></p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color:#ffffff">
+                    <p style="margin-left:0px; margin-right:0px; text-align:center"><strong>Noi1-3693-19022019</strong></p>
+                    </td>
+                    <td style="background-color:#ffffff">
+                    <p style="margin-left:0px; margin-right:0px; text-align:center"><strong>1.449.000</strong></p>
+                    </td>
+                    <td style="background-color:#ffffff">
+                    <p style="margin-left:0px; margin-right:0px; text-align:center"><strong>1.100.000</strong></p>
+                    </td>
+                    <td style="background-color:#ffffff">
+                    <p style="margin-left:0px; margin-right:0px; text-align:center"><strong>725.000</strong></p>
+                    </td>
+                    <td style="background-color:#ffffff">
+                    <p style="margin-left:0px; margin-right:0px; text-align:center"><strong>*Trẻ em dưới 2 tuổi (miễn phí)</strong></p>
+              
+                    <p style="margin-left:0px; margin-right:0px; text-align:center"><strong>*Tour ghép đoàn (khởi hành 10 khách trở lên)</strong></p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+          </div>
+
+          <div id="mda-comment">
+              <div class="mt-5 txt_pink display-4 text-uppercase">Bình luận</div>
+              <div class="fb-comments fb_iframe_widget fb_iframe_widget_fluid_desktop" data-href="http://danasea.vn/vi/tour/hoi-an-lung-linh-pho-co" data-width="100%" data-numposts="5" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=273876829895877&amp;container_width=908&amp;height=100&amp;href=https%3A%2F%2Fdulichviet.com.vn%2Fdu-lich-trong-nuoc%2Fdu-lich-quy-nhon-phu-yen-4-ngay-khoi-hanh-tu-sai-gon&amp;locale=vi_VN&amp;numposts=5&amp;sdk=joey&amp;version=v3.1" style="width: 100%;">
+                <span style="vertical-align: bottom; width: 100%; height: 178px;">
+                  <iframe name="f1f6e7326a59cb" width="1000px" height="100px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" title="fb:comments Facebook Social Plugin" src="https://www.facebook.com/v3.1/plugins/comments.php?app_id=273876829895877&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2Fd_vbiawPdxB.js%3Fversion%3D44%23cb%3Df2f1acd762403e8%26domain%3Ddulichviet.com.vn%26origin%3Dhttps%253A%252F%252Fdulichviet.com.vn%252Ff41c15909fc264%26relation%3Dparent.parent&amp;container_width=908&amp;height=100&amp;href=https%3A%2F%2Fdulichviet.com.vn%2Fdu-lich-trong-nuoc%2Fdu-lich-quy-nhon-phu-yen-4-ngay-khoi-hanh-tu-sai-gon&amp;locale=vi_VN&amp;numposts=5&amp;sdk=joey&amp;version=v3.1" style="border: none; visibility: visible; width: 100%; height: 178px;" class="">
+                  </iframe>
+                </span>
+              </div>
+          </div>
+        </div>
+        <div class="col-md- col-right">
+          <div id="r_ct">
+          <div class="row bg_pink p-4 text-white sss">
+            <div class="col-md-12 plr" id="r_bking">
+              <div class="meta-post">
+                    <div class="meta-post-title">Thông tin Tour</div>
+                      <p>
+                        <label><i class="fa fa-clock-o"></i>
+                        Mã Tour:Noi1-3693-19022019</label> 
+                      </p>
+                      <p>
+                        <label><i class="fa fa-clock-o"></i>
+                        Số ngày: 4 ngày 3 đêm</label> 
+                      </p>
+                      <p>
+                        <label><i class="fa fa-usd"></i>
+                        Giá: 3,790,000 VNĐ</label> 
+                      </p>
+                      <p>
+                        <label><i class="fa fa-road"></i>
+                        Lịch trình: Đắk Lắk - Đà Nẵng – Ngũ Hành Sơn – Hội An – Bà Nà hills – Cù Lao Chàm - bán đảo Sơn Trà - Đắk Lắk</label>
+                      </p>
+                      <p>
+                        <label><i class="fa fa-street-view"></i>
+                        Phương tiện: Ô Tô, cáp treo, cano cao tốc</label> 
+                      </p>
+                      <p>
+                        <label><i class="fa fa-subway"></i>
+                        Hình thức: Tour ghép</label> 
+                      </p>
+                      <div class="product__button">
+                        <a href="#" class="product--call product--btn" data-original-title="" title="">
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        <span>Đặt tour ngay</span>
+                        <b>(Đơn giản - không phức tạp)</b>
+                        </a>
+                      </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-4 sss m-t-0">
+              <ul class="list-group list-group-flush w-100 border-left text-uppercase right_ct">
+                <li class="list-group-item"><a class="text-dark" href="#lichtrinh">Lịch trình</a></li>
+                <li class="list-group-item"><a class="text-dark" href="#dichvu">Dịch vụ đi kèm</a></li>
+                <li class="list-group-item"><a class="text-dark" href="#lichkhtour">Lịch khởi hành</a></li>
+                <li class="list-group-item"><a class="text-dark" href="#ghichu">Ghi chú</a></li>
+                <li class="list-group-item"><a class="text-dark" href="#mda-comment">Bình luận</a></li>
+              </ul>
+          </div>
+          <div class="row b_call_r mt-4 alo">
+              <div><a href="#"><i class="fa fa-phone text-dark"></i> <span class="txt">Đà Nẵng</span> <span>1900 0000</span></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="container">
+        <div class="row content m-0">
+          <div class="col-sm-12 text-11">
+            <div class="home-tour">
+              <div class="tinpl">
+                    <div class="caption">
+                      <div>
+                        <h5><a href="#" title="Tin tức &amp; sự kiện">TOUR LIÊN</a></h5>
+                        <span class="cbg"></span>
+                      </div>
+                    </div>
+              </div>
+              <div class="popular-packages">
+                <div class="row">
+                  <div class="col-sm-4">
+                    <div class="thumbnail block-tour shadow">
+                      <a href="#" title="Khám phá miền Bắc: Hà Nội - Hạ Long - Yên Tử - Sapa">
+                        <img class="img-rounded" src="images/icons/hq.jpg" alt="">
+                      </a>
+                      <div class="caption">
+                        <a class="title-tour" href="#" title="Khám phá miền Bắc: Hà Nội - Hạ Long - Yên Tử - Sapa">Khám
+                          phá miền Bắc: Hà Nội - Hạ
+                          Long - Yên Tử - Sapa</a>
+                        <i class="fa fa-clock-o"></i> <span>16/03/2019</span>
+                        <a class="fright" href="#">Ngày
+                          khác</a>
+                      </div>
+                      <div class="bottom ">
+                        <i class="fa fa-money"></i>
+                        <span>7.990.000 vnđ</span>
+                        <a href="#" class="text-center btn btn-second">ĐẶT NGAY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="thumbnail block-tour shadow">
+                      <a href="#" title="Du Lịch Hà Nội - Bái Đính - Tràng An - Hạ Long - Yên Tử - Sapa">
+                        <img class="img-rounded" src="images/icons/hoian.jpg" alt="">
+                      </a>
+                      <div class="caption">
+                        <a class="title-tour" href="#"
+                          title="Du Lịch Hà Nội - Bái Đính - Tràng An - Hạ Long - Yên Tử - Sapa">Du Lịch Hà Nội - Bái
+                          Đính - Tràng An - Hạ Long - Yên Tử - Sapa</a>
+                        <i class="fa fa-clock-o"></i> <span>07/03/2019</span>
+                        <a class="fright" href="#">Ngày khác</a>
+                      </div>
+                      <div class="bottom ">
+                        <i class="fa fa-money"></i>
+                        <span>6.290.000 vnđ</span>
+                        <a href="#" class="text-center btn btn-second">ĐẶT NGAY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="thumbnail block-tour shadow">
+                      <a href="#" title="Đà Nẵng - Bà Nà - Hội An - Huế - ĐộNg Phong Nha">
+                        <img class="img-rounded" src="images/icons/tl2.jpg" alt="">
+                      </a>
+                      <div class="caption">
+                        <a class="title-tour" href="/tour/da-nang-ba-na-hoi-an-hue-dong-phong-nha-2"
+                          title="Đà Nẵng - Bà Nà - Hội An - Huế - ĐộNg Phong Nha">Đà Nẵng - Bà Nà - Hội An - Huế - ĐộNg
+                          Phong Nha</a>
+                        <i class="fa fa-clock-o"></i> <span>07/03/2019</span>
+                        <a class="fright" href="#">Ngày khác</a>
+                      </div>
+                      <div class="bottom ">
+                        <i class="fa fa-money"></i>
+                        <span>3.550.000 vnđ</span>
+                        <a href="#" class="text-center btn btn-second">ĐẶT NGAY</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+          <div class="row content m-0">
+            <div class="col-sm-12 text-11">
+              <div class="home-tour">
+                <div class="tinpl">
+                      <div class="caption">
+                        <div>
+                          <h5><a href="#" title="Tin tức &amp; sự kiện">DICH VỤ ĐÃ XEM</a></h5>
+                          <span class="cbg"></span>
+                        </div>
+                      </div>
+                </div>
+                <div class="popular-packages">
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <div class="thumbnail block-tour shadow">
+                        <a href="#" title="Khám phá miền Bắc: Hà Nội - Hạ Long - Yên Tử - Sapa">
+                          <img class="img-rounded" src="images/icons/hq.jpg" alt="">
+                        </a>
+                        <div class="caption">
+                          <a class="title-tour" href="#" title="Khám phá miền Bắc: Hà Nội - Hạ Long - Yên Tử - Sapa">Tour du lịch: Lâm Viên Cần Giờ | Đảo Khỉ | Chiến Khu Rừng Sác (1 ngày)</a>
+                          <i class="fa fa-clock-o"></i> <span>16/03/2019</span>
+                          <a class="fright" href="#">Ngày
+                            khác</a>
+                        </div>
+                        <div class="bottom ">
+                          <i class="fa fa-money"></i>
+                          <span>7.990.000 vnđ</span>
+                          <a href="#" class="text-center btn btn-second">ĐẶT NGAY</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  <!-- End main -->
+  <!-- Footer -->
+  <footer>
+    <section style="padding-bottom: 5px;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-4 footer-item">
+            <h3 class="h4">ĐIỂM ĐẾN TRONG NƯỚC</h3>
+            <a href="#">Du lịch Châu Á</a><br>
+            <a href="#">Du lịch Miền Bắc</a><br>
+            <a href="#">Du lịch Miền Trung</a><br>
+            <a href="#"></a>>Du lịch Nhật Bản</a><br>
+            <a href="#">Du lịch Hàn Quốc</a><br>
+            <a href="#">Du lịch miền Tây</a><br>
+            <a href="#">Du lịch Miền Nam</a><br>
+            <a href="#">Du lịch Châu Âu</a><br>
+            <a href="#">Du lịch Hà Nội</a><br>
+            <a href="#">Du lịch Đà Nẵng</a><br>
+
+          </div>
+          <div class="col-md-3 col-sm-4 footer-item">
+            <h3 class="h4">ĐIỂM ĐẾN NGOÀI NƯỚC</h3>
+            <a href="#">Du lịch Châu Á</a><br>
+            <a href="#">Du lịch Nhật Bản</a><br>
+            <a href="#">Du lịch Hàn Quốc</a><br>
+            <a href="#">Du lịch Châu Âu</a><br>
+            <a href="#">Du lịch Châu Úc</a><br>
+            <a href="#">Du lịch Thái Lan</a><br>
+            <a href="#">Du lịch Trung Quốc</a><br>
+            <a href="#">Du lịch Úc</a><br>
+            <a href="#">Du lịch Đài Loan</a><br>
+            <a href="#">Du lịch Singapore</a><br>
+          </div>
+          <div class="col-md-3 col-sm-4 footer-item">
+            <h3 class="h4">LIÊN KẾT</h3>
+            <a href="#">Tin Tức Du Lịch</a><br>
+            <a href="#">Tin Tức Khuyến Mãi</a><br>
+            <a href="#">Tin Tuyển Dụng</a><br>
+            <a href="#">Giới Thiệu</a><br>
+          </div>
+          <div class="col-md-3 col-sm-4 footer-item">
+            <h3 class="h4">LIÊN HỆ</h3>
+            <p>CÔNG TY CỔ PHẦN DU LỊCH DANASEA<br>
+              <strong>Trụ sở:</strong> 262 Nguyễn Tri Phương, Phường Thạc Gián, Quận Thanh Khê, TP Đà Nẵng<br>
+              <strong>Điện thoại:</strong> <a href="tel:(+84)236 6279 333" title=" (+84)236 6279 333"> (+84)236 6279
+                333</a><br>
+              <strong>Fax:</strong>(+84)236 6279 333 <br>
+              <strong>Email:</strong> <a href="#">info@danasea.vn</a>
+            </p>
+            <p><strong>Tổng Đài:</strong><a href="tel: (+84)899206999">&nbsp;(+84)899206999</a></p>
+            <br>
+            <span class="item-title mauchudao">KẾT NỐI VỚI CHÚNG TÔI</span>
+            <div class="social-link dark">
+              <a href="https://www.facebook.com/Danasea-Tourist-854174164714738/"
+                class="cws-social fa fa-facebook-f"></a>
+              <a href="" class="cws-social fa fa-google-plus"></a>
+              <a href="" class="cws-social fa fa-twitter"></a>
+              <a href="" class="cws-social fa fa-linkedin"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="copyright">
+      <div class="container">
+        <div class="row">
+          <div class="panel-body">Copyright @ 2019 <strong>DANASEA</strong>
+            <a class="dmca-badge" href="#" title="DANASEA">
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- .End Footer -->
+
+  <!-- social -->
+  <div id="social" class="follow-scroll-social hidden-xs">
+    <div class="social-top">
+      <a href="#" rel="nofollow" target="_blank" title="Fcebook">
+        <div class="facebook icon">
+          <i class="fa fa-facebook"></i>
+        </div>
+      </a>
+      <a href="#" rel="nofollow" target="_blank" title="Facebook messenger">
+        <div class="messenger icon">
+          <i class='fa fa-facebook'></i>
+        </div>
+      </a>
+      <a href="#" rel="nofollow" target="_blank" title="Google+">
+        <div class="google icon">
+          <i class="fa fa-google-plus"></i>
+        </div>
+      </a>
+      <a href="#" rel="nofollow" target="_blank" title="twitter">
+        <div class="twister icon">
+          <i class="fa fa-twitter"></i>
+        </div>
+      </a>
+      <a href="#" rel="nofollow" target="_blank" title="Youtube">
+        <div class="youtube icon">
+          <i class="fa fa-youtube-play"></i>
+        </div>
+      </a>
+      <a href="#" rel="nofollow" target="_blank" title="Hướng dẫn">
+        <div class="guide icon">
+          <i class="fa fa-book"></i>
+        </div>
+      </a>
+    </div>
+    <div class="social-bot show1">
+    </div>
+    <!-- /social -->
+  </div>
+  <!-- End social -->
+  </div>
+
+  <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      var captionText = document.getElementById("caption");
+      if (n > slides.length) { slideIndex = 1 }
+      if (n < 1) { slideIndex = slides.length }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      captionText.innerHTML = dots[slideIndex - 1].alt;
+    }
+  </script>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
