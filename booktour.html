@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>ProductTourt</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/chitiettour.css">
+  <link rel="stylesheet" type="text/css" href="css/responsive.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/header.css">
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+  <link rel="stylesheet" href="css/jquery-ui.css">
+
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+
+  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="site-wrap">
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+  </div>
+  <header class="site-navbar auto-hide-header" role="banner">
+    <nav class="top-nav container-custom">
+      <a href="/" class="logo">
+        <img src="images/icons/logo.jpg" width="100px" height="auto" alt="danasea">
+      </a>
+      <div class="filter-bar">
+        <div class="filter-nav-title">
+          <div class="company_name">
+            <h1>CÔNG TY CỔ PHẦN DU LỊCH DANASEA</h1>
+            <p>HOTLINE: (+84)899206999 </p>
+          </div>
+        </div>
+        <div class="filter-nav-under">
+          <div id="searchtour">
+            <div class="container">
+              <div class="row">
+                <div class="toursearchbar">
+                  <div class="search-caption">
+                    <span></span>
+                  </div>
+                  <div class="triangle-right">
+                  </div>
+                  <div class="search-frm">
+                    <label>
+                      <input type="radio" name="radiotour" id="trongnuoc" value="1" checked=""> Trong nước
+                    </label>
+                    <label>
+                      <input type="radio" name="radiotour" id="nuocngoai" value="2"> Nước ngoài
+                    </label>
+                    <div class="dropdown">
+                      <select class="form-control select_f_search" id="select_f_search_km">
+                        <option value="0">Lừa Chọn Địa Điểm</option>
+                        <option value="1">Đà Nẵng</option>
+                        <option value="2">Đắk Lắk</option>
+                      </select>
+                    </div>
+                    <div class="dropdown">
+                      <select class="form-control select_f_search" id="select_f_search_km">
+                        <option value="0">Tất cả</option>
+                        <option value="1">Khuyến mãi</option>
+                      </select>
+                    </div>
+                    <button type="button" class="btnsearchtour">
+                      <span class="triangle-left01">
+                      </span>
+                      <span class="btntext"></span>
+                      <span class="triangle-right01"></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <nav class="container-custom">
+      <div class="row">
+        <div class="col-12 col-md-12 d-none d-xl-block">
+          <nav class="site-navigation position-relative text-right text-lg-center" role="navigation">
+
+            <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
+              <li class="active">
+                <a href="#">
+                  <img alt="" src="images/icons/logo-home.png" width="35px">
+                </a>
+              </li>
+              <li class="has-children">
+                <a href="#">Du Lịch Trong Nước</a>
+                <ul class="dropdown">
+                  <li><a href="#" title="Du Lịch Miền Bắc">Du Lịch Miền Bắc</a></li>
+                  <li><a href="#" title="Du Lịch Miền Trung">Du Lịch Miền Trung</a></li>
+                  <li><a href="#" title="Du Lịch Miền Nam" target="_blank" rel="nofollow">Du Lịch Miền Nam</a>
+                  </li>
+                  <li><a href="#" title="Chùm Tour Nghỉ Lễ" target="_blank" rel="nofollow">Chùm Tour Nghỉ Lễ</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="has-children">
+                <a href="#">Du Lịch Nước Ngoài</a>
+                <ul class="dropdown">
+                  <li><a href="#" title="Du Lịch Châu Âu">Du Lịch Châu Âu</a></li>
+                  <li><a href="#" title="Du Lịch Châu Mỹ">Du Lịch Châu Mỹ</a></li>
+                  <li><a href="#" title="Du Lịch Châu Á" target="_blank" rel="nofollow">Du Lịch Châu Á</a></li>
+                  <li><a href="#" title="Du Lịch Châu Úc" target="_blank" rel="nofollow">Du Lịch Châu Úc</a></li>
+                  <li><a href="#" title="Du Lịch Châu Phi" target="_blank" rel="nofollow">Du Lịch Châu Phi</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="has-children">
+                <a href="#">Du Lịch Khách Đoàn</a>
+                <ul class="dropdown">
+                  <li><a href="#" title="Tour MICE">Tour MICE</a></li>
+                  <li><a href="#" title="Tổ Chức Teambuildingi">Tổ Chức Teambuilding</a></li>
+                  <li><a href="#" title="Tour Mới Lạ" target="_blank" rel="nofollow">Tour Mới Lạ</a></li>
+                  <li><a href="#" title="Tour Gia Đình" target="_blank" rel="nofollow">Tour Gia Đình</a></li>
+                  <li><a href="#" title="Tour Caravan" target="_blank" rel="nofollow">Tour Caravan</a></li>
+                  <li><a href="#" title="Tour Chuyên Đề" target="_blank" rel="nofollow">Tour Chuyên Đề</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Khách sạn</a></li>
+              <li class="has-children">
+                <a href="#">Vận chuyển</a>
+                <ul class="dropdown">
+                  <li><a href="#" title="Thuê xe" target="_blank" rel="nofollow">Thuê xe</a>
+                  </li>
+                  <li><a href="#" title="Vé máy bay" target="_blank" rel="nofollow">Vé máy bay
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="has-children">
+                <a href="#">Tin tức</a>
+                <ul class="dropdown">
+                  <li><a href="#" title="Thuê xe" target="_blank" rel="nofollow">Khuyến Mãi</a>
+                  </li>
+                  <li><a href="#" title="Vé máy bay" target="_blank" rel="nofollow">Khuyến
+                      mại Xuân 2019
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li><a href="#">Liên hệ</a></li>
+              <li class="has-children">
+                <a href="#">Dịch vụ Khách Hàng</a>
+                <ul class="dropdown">
+                  <li><a href="#" title="Thuê xe" target="_blank" rel="nofollow">Khách Sạn</a>
+                  </li>
+                  <li><a href="#" title="Vé máy bay" target="_blank" rel="nofollow">Làm Visa
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-6 col-xl-2 text-right">
+          <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#"
+              class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- End content -->
+  <!-- main -->
+  <div id="main-content" class="web-content">
+    <div class="order-steps-bar affix-top" data-spy="affix" data-offset-top="40">
+       <div class="order-step">
+          <div class="step step1 active" step="1"><span class="num">1</span><span class="lb hidden-xs">Thông tin hành khách</span></div>
+          <div class="step step2" step="2"><span class="num">2</span><span class="lb hidden-xs">Thanh toán</span></div>
+        </div>
+    </div>
+    <div class="container main-cates">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="booking">
+            <div class="row">
+              <form class="form-horizontal" role="form" method="post" enctype="multipart/form-data" action-xhr="#" action="#">
+                <div class="col-md-12 col-xs-12">
+                  <div class="row detail">
+                    <div class="col-xs-12">
+                      <div class="row">
+                        <div class="col-xs-12">
+                          <h1 class="detail-title"><span>Tour du lịch: Lâm Viên Cần Giờ | Đảo Khỉ | Chiến Khu Rừng Sác
+                              (1 ngày)</span></h1>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                          <p class="text-muted">
+                            <small><i class="fa fa-clock-o"></i> 2017-03-30 11:46:03</small>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xs-12 box-tour">
+                      <h2 class="focus"><span><i class="fa fa-user"></i> Thông tin tour</span></h2>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                      <div class="booking-qcode">
+                        <span>Mã tour: D2T-51-62</span>
+                        <input type="hidden" name="booking-qcode" value="D2T-51-62">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                      <label>Người lớn (*)</label>
+                      <select class="form-control" name="numberpeople" id="getprice_numberpeople" required="">
+                        <option value="">Chọn số người lớn</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                      </select>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                      <label>Trẻ Em (*)</label>
+                      <select class="form-control" name="numberbaby" id="getprice_numberbaby" disabled="">
+                        <option value="">Chọn số trẻ em</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                      <label>Thành Tiền</label>
+                      <div id="result">
+                        0 VNĐ
+                      </div>
+                      <div id="result_read">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xs-12 box-tour">
+                      <h2 class="focus"><span><i class="fa fa-user"></i> Thông tin liên hệ</span></h2>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                      <label>Danh xưng (*)</label>
+                      <select class="form-control" name="titlesex" id="titlesex">
+                        <option value="Ông">Ông</option>
+                        <option value="Bà">Bà</option>
+                        <option value="Anh">Anh</option>
+                        <option value="Chị">Chị</option>
+                      </select>
+                      <span class="help-block">Vui lòng cho biết danh xưng để tiện liên lạc.</span>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                      <label>Họ &amp; tên (*)</label>
+                      <input type="text" class="form-control" name="fullname" value="jhfghfgh" required="">
+                      <span class="help-block">Vui lòng cho biết họ tên đẩy đủ của bạn.</span>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                      <label>Địa chỉ Email (*)</label>
+                      <input type="email" class="form-control" name="email" value="honghuudl@gmail.com" required="">
+                      <span class="help-block">Vui lòng cho biết địa chỉ email thường dùng.</span>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                      <label>Điện thoại (*)</label>
+                      <input type="text" class="form-control" name="phone" value="0446 676 667" required="">
+                      <span class="help-block">Vui lòng cho biết số di động.</span>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                      <label>Địa chỉ</label>
+                      <input type="text" class="form-control" name="address" value="675 fsdfssdfsdf london "
+                        required="">
+                      <span class="help-block">Vui lòng cho biết số địa chỉ đang ở của bạn.</span>
+                    </div>
+                    <div class="col-xs-12">
+                      <label>Yêu cầu khác</label>
+                      <textarea rows="3" class="form-control" name="addition" id="addition"></textarea>
+                      <span class="help-block">Để danasea phục vụ tốt nhất cho bạn vui lòng cho biết chi tiết yêu
+                        cầu chi tiết như khách sạn, xe, vé,...</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-center">
+                  <button type="submit" class="btn btn-success">
+                    <span class="fa fa-paper-plane"></span> Tiếp Tục 
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End main -->
+  <!-- Footer -->
+  <footer>
+    <section style="padding-bottom: 5px;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-4 footer-item">
+            <h3 class="h4">ĐIỂM ĐẾN TRONG NƯỚC</h3>
+            <a href="#">Du lịch Châu Á</a><br>
+            <a href="#">Du lịch Miền Bắc</a><br>
+            <a href="#">Du lịch Miền Trung</a><br>
+            <a href="#"></a>>Du lịch Nhật Bản</a><br>
+            <a href="#">Du lịch Hàn Quốc</a><br>
+            <a href="#">Du lịch miền Tây</a><br>
+            <a href="#">Du lịch Miền Nam</a><br>
+            <a href="#">Du lịch Châu Âu</a><br>
+            <a href="#">Du lịch Hà Nội</a><br>
+            <a href="#">Du lịch Đà Nẵng</a><br>
+
+          </div>
+          <div class="col-md-3 col-sm-4 footer-item">
+            <h3 class="h4">ĐIỂM ĐẾN NGOÀI NƯỚC</h3>
+            <a href="#">Du lịch Châu Á</a><br>
+            <a href="#">Du lịch Nhật Bản</a><br>
+            <a href="#">Du lịch Hàn Quốc</a><br>
+            <a href="#">Du lịch Châu Âu</a><br>
+            <a href="#">Du lịch Châu Úc</a><br>
+            <a href="#">Du lịch Thái Lan</a><br>
+            <a href="#">Du lịch Trung Quốc</a><br>
+            <a href="#">Du lịch Úc</a><br>
+            <a href="#">Du lịch Đài Loan</a><br>
+            <a href="#">Du lịch Singapore</a><br>
+          </div>
+          <div class="col-md-3 col-sm-4 footer-item">
+            <h3 class="h4">LIÊN KẾT</h3>
+            <a href="#">Tin Tức Du Lịch</a><br>
+            <a href="#">Tin Tức Khuyến Mãi</a><br>
+            <a href="#">Tin Tuyển Dụng</a><br>
+            <a href="#">Giới Thiệu</a><br>
+          </div>
+          <div class="col-md-3 col-sm-4 footer-item">
+            <h3 class="h4">LIÊN HỆ</h3>
+            <p>CÔNG TY CỔ PHẦN DU LỊCH DANASEA<br>
+              <strong>Trụ sở:</strong> 262 Nguyễn Tri Phương, Phường Thạc Gián, Quận Thanh Khê, TP Đà Nẵng<br>
+              <strong>Điện thoại:</strong> <a href="tel:(+84)236 6279 333" title=" (+84)236 6279 333"> (+84)236 6279
+                333</a><br>
+              <strong>Fax:</strong>(+84)236 6279 333 <br>
+              <strong>Email:</strong> <a href="#">info@danasea.vn</a>
+            </p>
+            <p><strong>Tổng Đài:</strong><a href="tel: (+84)899206999">&nbsp;(+84)899206999</a></p>
+            <br>
+            <span class="item-title mauchudao">KẾT NỐI VỚI CHÚNG TÔI</span>
+            <div class="social-link dark">
+              <a href="https://www.facebook.com/Danasea-Tourist-854174164714738/"
+                class="cws-social fa fa-facebook-f"></a>
+              <a href="" class="cws-social fa fa-google-plus"></a>
+              <a href="" class="cws-social fa fa-twitter"></a>
+              <a href="" class="cws-social fa fa-linkedin"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="copyright">
+      <div class="container">
+        <div class="row">
+          <div class="panel-body">Copyright @ 2019 <strong>DANASEA</strong>
+            <a class="dmca-badge" href="#" title="DANASEA">
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- .End Footer -->
+
+  <!-- social -->
+  <div id="social" class="follow-scroll-social hidden-xs">
+    <div class="social-top">
+      <a href="#" rel="nofollow" target="_blank" title="Fcebook">
+        <div class="facebook icon">
+          <i class="fa fa-facebook"></i>
+        </div>
+      </a>
+      <a href="#" rel="nofollow" target="_blank" title="Facebook messenger">
+        <div class="messenger icon">
+          <i class='fa fa-facebook'></i>
+        </div>
+      </a>
+      <a href="#" rel="nofollow" target="_blank" title="Google+">
+        <div class="google icon">
+          <i class="fa fa-google-plus"></i>
+        </div>
+      </a>
+      <a href="#" rel="nofollow" target="_blank" title="twitter">
+        <div class="twister icon">
+          <i class="fa fa-twitter"></i>
+        </div>
+      </a>
+      <a href="#" rel="nofollow" target="_blank" title="Youtube">
+        <div class="youtube icon">
+          <i class="fa fa-youtube-play"></i>
+        </div>
+      </a>
+      <a href="#" rel="nofollow" target="_blank" title="Hướng dẫn">
+        <div class="guide icon">
+          <i class="fa fa-book"></i>
+        </div>
+      </a>
+    </div>
+    <div class="social-bot show1">
+    </div>
+    <!-- /social -->
+  </div>
+  <!-- End social -->
+  </div>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
