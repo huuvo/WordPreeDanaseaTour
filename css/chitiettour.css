@@ -235,24 +235,122 @@ img {
 }
 
 /* dichvu */
-.service-contain {
+.bg-light {
+  margin-top: 40px;
+}
+.affix-nav {
+  padding: 0;
+  margin: 0;
+  border-bottom: 3px solid #fff;
+  display: flex;
+}
+
+.affix-nav.main li {
+  width: auto;
+}
+.affix-nav li {
+  display: inline-block;
+  width: 100%;
+}
+.nav>li, .nav>li>a {
+  display: block;
+  position: relative;
+}
+
+.affix-nav.main li a {
+  font-size: 18px;
+}
+.affix-nav li a {
+  color: #333;
+  font-size: 16px;
+  line-height: 36px;
+  padding: 0 20px;
+  position: relative;
+  display: block;
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+}
+.affix-nav {
+ padding-left: 0;
+ margin-bottom: 0;
+ list-style: none;
+ background-color: #fff;
+ border-bottom: 3px solid #01C675;
+}
+
+/* hotro */
+#support .list-group-item:first-child {
+  border-top-left-radius: 0!important;
+  border-top-right-radius: 0!important;
+}
+
+.fa-fw {
+  width: 1.28571429em;
   text-align: center;
 }
-.bg-light .service-list {
-  display: inline-flex;
-  flex-wrap: wrap;
+#support .support-item {
+  margin-top: 10px;
 }
 
-.service-list .service-item {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  padding:20px;
+.iconsupport {
+  width: 40%;
+  float: left;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+a {
+  color: #337ab7;
+  text-decoration: none;
 }
 
-.service-list .service-item>img {
-  width: 45px;
-  margin-bottom: 5px;
+.support-info .phone-number {
+  color: red;
+}
+#support .support-item .support-info p {
+  margin: 0 0 2px!important;
+}
+#support .support-item .support-info .rank {
+  color: #3a84df;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+#support .support-item .support-info {
+  margin-top: 2px;
+}
+
+.social span.phone {
+  background: #E12B28;
+}
+.social span {
+  width: 20px;
+  color: #fff;
+  font-size: 11px;
+  height: 21px;
+  display: inline-block;
+  text-align: center;
+  line-height: 2;
+  margin: 3px;
+}
+
+#support .list-group-item {
+  background-color: #0b70cd!important;
+  color: #fff!important;
+  border: 0 solid #ddd!important;
+}
+.social span.facebook {
+  background: #3A589E;
+}
+.social span {
+  width: 20px;
+  color: #fff;
+  font-size: 11px;
+  height: 21px;
+  display: inline-block;
+  text-align: center;
+  line-height: 2;
+  margin: 3px;
 }
 /* 
 lich trinh khoi hanh */

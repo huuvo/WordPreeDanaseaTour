@@ -113,7 +113,8 @@ body {
 
 .con_tour_hot {
   border: 1px solid #EEEEEE;
-  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
+  /* box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important; */
+  margin: 10px 0 10px 0;
 }
 
 table {
@@ -280,7 +281,9 @@ td a {
 }
 
 /* sidebar */
-
+#slideshow {
+  padding : 10px 0 10px 0;
+}
 .sidebar {
   padding: 10px;
   margin-top: 8px;
@@ -289,7 +292,21 @@ td a {
 .sidebar-widget>div:first-child {
   margin-top: 8px;
 }
+.branch {
+  width: 265px;
+  max-height: 400px;
+  margin: 10px 0 10px 0;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.branch p {
+  color: #28B028;
+}
 
+.branch b b {
+  color: #fff;
+}
 .hotro {
   color: #065F92;
   font-size: 20px;
@@ -1036,7 +1053,7 @@ img {
 
 .block-tour .caption a.title-tour {
   color: #119C4A;
-  font-weight: 700;
+  font-weight: 600;
   display: block;
   font-size: 15px;
   word-break: break-all;
@@ -1126,7 +1143,12 @@ img {
   margin-bottom: 20px;
 }
 /* tour hot */
-
+/* breadcrumb */
+.breadcrumb {
+  padding: 10px 0;
+  color: white;
+  background: #f7670d;
+}
 /* home tour */
 
 #home-tour {
@@ -1154,8 +1176,37 @@ img {
   width: 150px;
   font-size: 15px;
   font-weight: 600;
+  background: #29c314;
 }
 
+.pagination {
+  text-align: right;
+  width: 100%;
+}
+.view-page {
+  float: right;
+}
+.pagination li {
+  display: inline-block;
+}
+
+.pagination li a.active {
+  color: white;
+  background: #f7670d;
+  border-color: #f7670d;
+}
+.pagination li a {
+  padding: 5px 12px;
+  margin: 0 5px;
+  color: #f7670d;
+  display: block;
+  background: white;
+  border: 1px solid #dddddd;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+}
 .btn-base {
   background: #29c314;
   color: #fff;
@@ -1648,3 +1699,7 @@ img {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
+
+/* pane tour */
+
