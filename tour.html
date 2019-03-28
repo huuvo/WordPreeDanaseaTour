@@ -2,37 +2,30 @@
 <html lang="en">
 
 <head>
-  <title>tour</title>
+  <title>ProductTourt</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link rel="stylesheet" type="text/css" href="css/main.css">
   <link rel="stylesheet" type="text/css" href="css/responsive.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="stylesheet" type="text/css" href="css/header.css">
   <link rel="stylesheet" type="text/css" href="css/tour.css">
+  <link rel="stylesheet" type="text/css" href="css/header.css">
   <link rel="stylesheet" href="fonts/icomoon/style.css">
-
   <link rel="stylesheet" href="css/jquery-ui.css">
-
   <link rel="stylesheet" href="css/owl.carousel.min.css">
 
-  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-
-  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/aos.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <!-- -wrap -->
   <div class="site-wrap">
     <div class="site-mobile-menu">
       <div class="site-mobile-menu-header">
@@ -42,401 +35,382 @@
       </div>
       <div class="site-mobile-menu-body"></div>
     </div>
-    <nav class="top-nav container-custom">
-      <div class="logo-title">
-        <a href="/" class="logo">
-          <img src="http://danasea.vn/public/img/logo.jpg" style="vertical-align: middle;" width="150px" height="auto"
-            alt="danasea">
-        </a>
-      </div>
-      <div class="filter-bar">
-        <div class="filter-nav-title">
-          <div class="company_name">
-            <h1>CÔNG TY CỔ PHẦN DU LỊCH DANASEA</h1>
-            <p>HOTLINE: (+84)899206999 </p>
-          </div>
+  </div>
+    <header class="site-navbar auto-hide-header" role="banner">
+      <nav class="top-nav container-custom">
+            <a href="/" class="logo">
+              <img src="images/icons/logo.jpg" width="100px" height="auto" alt="danasea">
+            </a>
+            <div class="filter-bar">
+              <div class="filter-nav-title">
+                <div class="company_name">
+                  <h1>CÔNG TY CỔ PHẦN DU LỊCH DANASEA</h1>
+                  <p>HOTLINE: (+84)899206999 </p>
+                </div>
+              </div>
+              <div class="filter-nav-under">
+                <div id="searchtour">
+                  <div class="container">
+                    <div class="row">
+                      <div class="toursearchbar">
+                        <div class="search-caption">
+                          <span></span>
+                        </div>
+                        <div class="triangle-right">
+                        </div>
+                        <div class="search-frm">
+                          <label>
+                            <input type="radio" name="radiotour" id="trongnuoc" value="1" checked=""> Trong nước
+                          </label>
+                          <label>
+                            <input type="radio" name="radiotour" id="nuocngoai" value="2"> Nước ngoài
+                          </label>
+                          <div class="dropdown">
+                            <select class="form-control select_f_search" id="select_f_search_km">
+                              <option value="0">Lừa Chọn Địa Điểm</option>
+                              <option value="1">Đà Nẵng</option>
+                              <option value="2">Đắk Lắk</option>
+                            </select>
+                          </div>
+                          <div class="dropdown">
+                            <select class="form-control select_f_search" id="select_f_search_km">
+                              <option value="0">Tất cả</option>
+                              <option value="1">Khuyến mãi</option>
+                            </select>
+                          </div>
+                          <button type="button" class="btnsearchtour">
+                            <span class="triangle-left01">
+                            </span>
+                            <span class="btntext"></span>
+                            <span class="triangle-right01"></span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      </nav>
+      <nav class="container-custom">
+        <div class="row">
+            <div class="col-12 col-md-12 d-none d-xl-block">
+                  <nav class="site-navigation position-relative text-right text-lg-center" role="navigation">
+
+                    <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
+                      <li class="active">
+                        <a href="#">
+                            <img alt="" src="images/icons/logo-home.png" width="35px">
+                        </a>
+                      </li>
+                      <li class="has-children">
+                        <a href="#">Du Lịch Trong Nước</a>
+                        <ul class="dropdown">
+                          <li><a href="#" title="Du Lịch Miền Bắc">Du Lịch Miền Bắc</a></li>
+                          <li><a href="#" title="Du Lịch Miền Trung">Du Lịch Miền Trung</a></li>
+                          <li><a href="#" title="Du Lịch Miền Nam" target="_blank" rel="nofollow">Du Lịch Miền Nam</a>
+                          </li>
+                          <li><a href="#" title="Chùm Tour Nghỉ Lễ" target="_blank" rel="nofollow">Chùm Tour Nghỉ Lễ</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="has-children">
+                        <a href="#">Du Lịch Nước Ngoài</a>
+                        <ul class="dropdown">
+                          <li><a href="#" title="Du Lịch Châu Âu">Du Lịch Châu Âu</a></li>
+                          <li><a href="#" title="Du Lịch Châu Mỹ">Du Lịch Châu Mỹ</a></li>
+                          <li><a href="#" title="Du Lịch Châu Á" target="_blank" rel="nofollow">Du Lịch Châu Á</a></li>
+                          <li><a href="#" title="Du Lịch Châu Úc" target="_blank" rel="nofollow">Du Lịch Châu Úc</a></li>
+                          <li><a href="#" title="Du Lịch Châu Phi" target="_blank" rel="nofollow">Du Lịch Châu Phi</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="has-children">
+                        <a href="#">Du Lịch Khách Đoàn</a>
+                        <ul class="dropdown">
+                          <li><a href="#" title="Tour MICE">Tour MICE</a></li>
+                          <li><a href="#" title="Tổ Chức Teambuildingi">Tổ Chức Teambuilding</a></li>
+                          <li><a href="#" title="Tour Mới Lạ" target="_blank" rel="nofollow">Tour Mới Lạ</a></li>
+                          <li><a href="#" title="Tour Gia Đình" target="_blank" rel="nofollow">Tour Gia Đình</a></li>
+                          <li><a href="#" title="Tour Caravan" target="_blank" rel="nofollow">Tour Caravan</a></li>
+                          <li><a href="#" title="Tour Chuyên Đề" target="_blank" rel="nofollow">Tour Chuyên Đề</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#">Khách sạn</a></li>
+                      <li class="has-children">
+                        <a href="#">Vận chuyển</a>
+                        <ul class="dropdown">
+                          <li><a href="#" title="Thuê xe" target="_blank" rel="nofollow">Thuê xe</a>
+                          </li>
+                          <li><a href="#" title="Vé máy bay" target="_blank" rel="nofollow">Vé máy bay
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="has-children">
+                        <a href="#">Tin tức</a>
+                        <ul class="dropdown">
+                          <li><a href="#" title="Thuê xe" target="_blank" rel="nofollow">Khuyến Mãi</a>
+                          </li>
+                          <li><a href="#" title="Vé máy bay" target="_blank" rel="nofollow">Khuyến
+                              mại Xuân 2019
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li><a href="#">Liên hệ</a></li>
+                      <li class="has-children">
+                        <a href="#">Dịch vụ Khách Hàng</a>
+                        <ul class="dropdown">
+                            <li><a href="#" title="Thuê xe" target="_blank" rel="nofollow">Khách Sạn</a>
+                            </li>
+                            <li><a href="#" title="Vé máy bay" target="_blank" rel="nofollow">Làm Visa
+                              </a>
+                            </li>
+                          </ul>
+                      </li>
+                    </ul>
+                  </nav>
+            </div>
+            <div class="col-6 col-xl-2 text-right">
+                  <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#"
+                      class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+            </div>
         </div>
-        <div class="filter-nav-under">
-          <div id="searchtour">
+      </nav>
+    </header>
+    <!-- End content -->
+    <!-- main -->
+    <div id="main-content" class="web-content">
+        <div id="breadcrumb">
             <div class="container">
-              <div class="row">
-                <div class="toursearchbar">
-                  <div class="search-caption">
-                    <span></span>
-                  </div>
-                  <div class="triangle-right">
-                  </div>
-                  <div class="search-frm">
-                    <label>
-                      <input type="radio" name="radiotour" id="trongnuoc" value="1" checked=""> Trong nước
-                    </label>
-                    <label>
-                      <input type="radio" name="radiotour" id="nuocngoai" value="2"> Nước ngoài
-                    </label>
-                    <div class="dropdown">
-                      <select class="form-control select_f_search" id="select_f_search_km">
-                        <option value="0">Lừa Chọn Địa Điểm</option>
-                        <option value="1">Đà Nẵng</option>
-                        <option value="2">Đắk Lắk</option>
-                      </select>
-                    </div>
-                    <div class="dropdown">
-                      <select class="form-control select_f_search" id="select_f_search_km">
-                        <option value="0">Tất cả</option>
-                        <option value="1">Khuyến mãi</option>
-                      </select>
-                    </div>
-                    <button type="button" class="btnsearchtour">
-                      <span class="triangle-left01">
-                      </span>
-                      <span class="btntext"></span>
-                      <span class="triangle-right01"></span>
-                    </button>
-                  </div>
-                </div>
+              <div class="row breadcrumb">
+                <span itemscope="" itemtype="#">
+                  <a href="#" itemprop="url">
+                    <span itemprop="title">Du lịch</span></a></span> ->
+                <span itemscope="" itemtype="#">
+                  <a href="#" itemprop="url">
+                    <span itemprop="title">Du lịch trong nước</span>
+                  </a>
+                </span>
               </div>
             </div>
-          </div>
         </div>
-      </div>
-    </nav>
-  </div>
-  <!-- End wrap -->
-
-  <!-- site-navba -->
-  <header class="site-navbar auto-hide-header" role="banner">
-    <nav class="container-custom">
-      <div class="row">
-        <div class="col-12 col-md-12 d-none d-xl-block">
-          <nav class="site-navigation position-relative text-right text-lg-center" role="navigation">
-            <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
-              <li class="active">
-                <a href="#">
-                  <img alt="" src="images/icons/logo-home.png" width="35px">
-                </a>
-              </li>
-              <li class="has-children">
-                <a href="#">Du Lịch Trong Nước</a>
-                <ul class="dropdown">
-                  <li><a href="#" title="Du Lịch Miền Bắc">Du Lịch Miền Bắc</a></li>
-                  <li><a href="#" title="Du Lịch Miền Trung">Du Lịch Miền Trung</a></li>
-                  <li><a href="#" title="Du Lịch Miền Nam" target="_blank" rel="nofollow">Du Lịch Miền Nam</a>
-                  </li>
-                  <li><a href="#" title="Chùm Tour Nghỉ Lễ" target="_blank" rel="nofollow">Chùm Tour Nghỉ Lễ</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="has-children">
-                <a href="#">Du Lịch Nước Ngoài</a>
-                <ul class="dropdown">
-                  <li><a href="#" title="Du Lịch Châu Âu">Du Lịch Châu Âu</a></li>
-                  <li><a href="#" title="Du Lịch Châu Mỹ">Du Lịch Châu Mỹ</a></li>
-                  <li><a href="#" title="Du Lịch Châu Á" target="_blank" rel="nofollow">Du Lịch Châu Á</a></li>
-                  <li><a href="#" title="Du Lịch Châu Úc" target="_blank" rel="nofollow">Du Lịch Châu Úc</a></li>
-                  <li><a href="#" title="Du Lịch Châu Phi" target="_blank" rel="nofollow">Du Lịch Châu Phi</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="has-children">
-                <a href="#">Du Lịch Khách Đoàn</a>
-                <ul class="dropdown">
-                  <li><a href="#" title="Tour MICE">Tour MICE</a></li>
-                  <li><a href="#" title="Tổ Chức Teambuildingi">Tổ Chức Teambuilding</a></li>
-                  <li><a href="#" title="Tour Mới Lạ" target="_blank" rel="nofollow">Tour Mới Lạ</a></li>
-                  <li><a href="#" title="Tour Gia Đình" target="_blank" rel="nofollow">Tour Gia Đình</a></li>
-                  <li><a href="#" title="Tour Caravan" target="_blank" rel="nofollow">Tour Caravan</a></li>
-                  <li><a href="#" title="Tour Chuyên Đề" target="_blank" rel="nofollow">Tour Chuyên Đề</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Khách sạn</a></li>
-              <li class="has-children">
-                <a href="#">Vận chuyển</a>
-                <ul class="dropdown">
-                  <li><a href="#" title="Thuê xe" target="_blank" rel="nofollow">Thuê xe</a>
-                  </li>
-                  <li><a href="#" title="Vé máy bay" target="_blank" rel="nofollow">Vé máy bay
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="has-children">
-                <a href="#">Tin tức</a>
-                <ul class="dropdown">
-                  <li><a href="#" title="Thuê xe" target="_blank" rel="nofollow">Khuyến Mãi</a>
-                  </li>
-                  <li><a href="#" title="Vé máy bay" target="_blank" rel="nofollow">Khuyến
-                      mại Xuân 2019
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li><a href="#">Liên hệ</a></li>
-              <li class="has-children">
-                <a href="#">Dịch vụ Khách Hàng</a>
-                <ul class="dropdown">
-                  <li><a href="#" title="Thuê xe" target="_blank" rel="nofollow">Khách Sạn</a>
-                  </li>
-                  <li><a href="#" title="Vé máy bay" target="_blank" rel="nofollow">Làm Visa
-                    </a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </nav>
-        </div>
-        <div class="col-6 col-xl-2 text-right">
-          <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#"
-              class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
-        </div>
-      </div>
-    </nav>
-  </header>
-  <!-- End site-navba -->
-  <div id="breadcrumb">
-    <div class="container">
-      <div class="row breadcrumb">
-        <span itemscope="" itemtype="#">
-          <a href="#" itemprop="url">
-            <span itemprop="title">Du lịch</span></a></span> »
-        <span itemscope="" itemtype="#">
-          <a href="#" itemprop="url">
-            <span itemprop="title">Du lịch trong nước</span>
-          </a>
-        </span>
-      </div>
-    </div>
-  </div>
-  <!--list-tintuc Tour  -->
-  <section class="container-custom">
-    <div id="list-tintuc" class="tintuc container">
-      <div class="row item-tintuc tingioithieutour ">
-        <div class="col-md-4 col-sm-0 col-xs-0">
-          <img src="images/icons/hq.jpg" alt="Du lịch trong nước" class="img-responsive  hidden-xs hidden-sm">
-        </div>
-        <div class="col-md-8 col-sm-8 col-xs-12">
-          <div>
-            <div class="frame-tintuc">
-              <h1><a href="/du-lich-viet-nam.aspx"><span class="title">Du lịch trong nước</span></a></h1>
-            </div>
-            <div class="mota-tintuc">
-              <img src="/images/icons/hoian.jpg" alt="Du lịch trong nước"
-                class="img-responsive hidden-lg hidden-md hidden-sm">
-              Du lịch trong nước luôn là lựa chọn tuyệt vời. Đường bờ biển dài hơn 3260km, những khu bảo tồn thiên nhiên
-              tuyệt vời, những thành phố nhộn nhịp, những di tích lịch sử hào hùng, nền văn hóa độc đáo và hấp dẫn, cùng
-              một danh sách dài những món ăn ngon nhất thế giới, Việt Nam có tất cả những điều đó. Với lịch trình dày,
-              khởi hành đúng thời gian cam kết, Vietravel là công ty lữ hành uy tín nhất hiện nay tại Việt Nam, luôn sẵn
-              sàng phục vụ du khách mọi lúc, mọi nơi, đảm bảo tính chuyên nghiệp và chất lượng dịch vụ tốt nhất thị
-              trường
-            </div>
-            <div>
-              <div class="socialBox">
-                <div class="tw">
-                  <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true"
-                    class="twitter-share-button twitter-share-button-rendered twitter-tweet-button"
-                    style="position: static; visibility: visible; width: 61px; height: 20px;"
-                    title="Twitter Tweet Button"
-                    src="https://platform.twitter.com/widgets/tweet_button.2e9f365dae390394eb8d923cba8c5b11.vi.html#dnt=false&amp;id=twitter-widget-0&amp;lang=vi&amp;original_referer=https%3A%2F%2Ftravel.com.vn%2Fdu-lich-viet-nam.aspx&amp;size=m&amp;text=Du%20l%E1%BB%8Bch%20trong%20n%C6%B0%E1%BB%9Bc%20%7C%20Tour%20trong%20n%C6%B0%E1%BB%9Bc%202018%20%7C%20Du%20l%E1%BB%8Bch%20Vi%E1%BB%87t%20Nam&amp;time=1553332496965&amp;type=share&amp;url=https%3A%2F%2Ftravel.com.vn%2Fdu-lich-viet-nam.aspx"
-                    data-url="https://travel.com.vn/du-lich-viet-nam.aspx"></iframe>
-                  <script
-                    type="text/javascript">!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.twitter.com/widgets.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'twitter-wjs');</script>
-                </div>
-                <div class="fb">
-                  <div class="fb-like fb_iframe_widget" data-href="https://travel.com.vn/du-lich-viet-nam.aspx"
-                    data-send="true" data-layout="button_count" data-width="150" data-show-faces="true"
-                    fb-xfbml-state="rendered"
-                    fb-iframe-plugin-query="app_id=486170608123974&amp;container_width=120&amp;href=https%3A%2F%2Ftravel.com.vn%2Fdu-lich-viet-nam.aspx&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;send=true&amp;show_faces=true&amp;width=150">
-                    <span style="vertical-align: bottom; width: 120px; height: 20px;"><iframe name="f33c6d84035d59c"
-                        width="150px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true"
-                        scrolling="no" allow="encrypted-media" title="fb:like Facebook Social Plugin"
-                        src="https://www.facebook.com/v2.6/plugins/like.php?app_id=486170608123974&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2Fd_vbiawPdxB.js%3Fversion%3D44%23cb%3Df3753f7c59d7104%26domain%3Dtravel.com.vn%26origin%3Dhttps%253A%252F%252Ftravel.com.vn%252Ff2ced11be2d1af8%26relation%3Dparent.parent&amp;container_width=120&amp;href=https%3A%2F%2Ftravel.com.vn%2Fdu-lich-viet-nam.aspx&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;send=true&amp;show_faces=true&amp;width=150"
-                        style="border: none; visibility: visible; width: 120px; height: 20px;" class=""></iframe></span>
-                  </div>
-                </div>
-                <div class="gl">
-                  <div id="___plusone_0" style="position: absolute; width: 450px; left: -10000px;"><iframe
-                      ng-non-bindable="" frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no"
-                      style="position:absolute;top:-10000px;width:450px;margin:0px;border-style:none" tabindex="0"
-                      vspace="0" width="100%" id="I0_1553332495676" name="I0_1553332495676"
-                      src="https://apis.google.com/se/0/_/+1/fastbutton?usegapi=1&amp;size=medium&amp;annotation=bubble&amp;origin=https%3A%2F%2Ftravel.com.vn&amp;url=https%3A%2F%2Ftravel.com.vn%2Fdu-lich-viet-nam.aspx&amp;gsrc=3p&amp;ic=1&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.vi.HBd5-P9nvnc.O%2Fam%3DwQ%2Frt%3Dj%2Fd%3D1%2Frs%3DAGLTcCNk53Eiweqv9Pn2B61YUMzU3zoLrg%2Fm%3D__features__#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Cdrefresh%2Cerefresh&amp;id=I0_1553332495676&amp;_gfid=I0_1553332495676&amp;parent=https%3A%2F%2Ftravel.com.vn&amp;pfname=&amp;rpctoken=57138358"
-                      data-gapiattached="true"></iframe><iframe ng-non-bindable="" frameborder="0" hspace="0"
-                      marginheight="0" marginwidth="0" scrolling="no"
-                      style="position:absolute;top:-10000px;width:450px;margin:0px;border-style:none" tabindex="0"
-                      vspace="0" width="100%" id="I1_1553332499861" name="I1_1553332499861"
-                      src="https://apis.google.com/u/0/se/0/_/+1/fastbutton?usegapi=1&amp;size=medium&amp;annotation=bubble&amp;origin=https%3A%2F%2Ftravel.com.vn&amp;url=https%3A%2F%2Ftravel.com.vn%2Fdu-lich-viet-nam.aspx&amp;gsrc=3p&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.vi.HBd5-P9nvnc.O%2Fam%3DwQ%2Frt%3Dj%2Fd%3D1%2Frs%3DAGLTcCNk53Eiweqv9Pn2B61YUMzU3zoLrg%2Fm%3D__features__#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Cdrefresh%2Cerefresh&amp;id=I1_1553332499861&amp;_gfid=I1_1553332499861&amp;parent=https%3A%2F%2Ftravel.com.vn&amp;pfname=&amp;rpctoken=66462903"
-                      data-gapiattached="true"></iframe></div>
-                  <g:plusone size="medium" annotation="bubble" data-gapiscan="true" data-onload="true"
-                    data-gapistub="true"></g:plusone>
-                </div>
-                <div class="pin"><a class="PIN_1553332496473_button_pin PIN_1553332496473_save"
-                    href="https://www.pinterest.com/pin/create/button/?guid=KC7w8v1bvF_1-1&amp;url=https%3A%2F%2Ftravel.com.vn%2Fdu-lich-viet-nam.aspx&amp;media=https%3A%2F%2Ftravel.com.vn%2Fimages%2Fdestination%2FLarge%2F1109132557-VN%20220x145.jpg&amp;description=Du%20l%E1%BB%8Bch%20trong%20n%C6%B0%E1%BB%9Bc%20lu%C3%B4n%20l%C3%A0%20l%E1%BB%B1a%20ch%E1%BB%8Dn%20tuy%E1%BB%87t%20v%E1%BB%9Di.%20%C4%90%C6%B0%E1%BB%9Dng%20b%E1%BB%9D%20bi%E1%BB%83n%20d%C3%A0i%20h%C6%A1n%203260km%2C%20nh%E1%BB%AFng%20khu%20b%E1%BA%A3o%20t%E1%BB%93n%20thi%C3%AAn%20nhi%C3%AAn%20tuy%E1%BB%87t%20v%E1%BB%9Di%2C%20nh%E1%BB%AFng%20th%C3%A0nh%20ph%E1%BB%91%20nh%E1%BB%99n%20nh%E1%BB%8Bp%2C%20nh%E1%BB%AFng%20di%20t%C3%ADch%20l%E1%BB%8Bch%20s%E1%BB%AD%20h%C3%A0o%20h%C3%B9ng%2C%20n%E1%BB%81n%20v%C4%83n%20h%C3%B3a%20%C4%91%E1%BB%99c%20%C4%91%C3%A1o%20v%C3%A0%20h%E1%BA%A5p%20d%E1%BA%ABn%2C%20c%C3%B9ng%20m%E1%BB%99t%20danh%20s%C3%A1ch%20d%C3%A0i%20nh%E1%BB%AFng%20m%C3%B3n%20%C4%83n%20ngon%20nh%E1%BA%A5t%20th%E1%BA%BF%20gi%E1%BB%9Bi%2C%20Vi%E1%BB%87t%20Nam%20c%C3%B3%20t%E1%BA%A5t%20c%E1%BA%A3%20nh%E1%BB%AFng%20%C4%91i%E1%BB%81u%20%C4%91%C3%B3.%20V%E1%BB%9Bi%20l%E1%BB%8Bch%20tr%C3%ACnh%20d%C3%A0y%2C%20kh%E1%BB%9Fi%20h%C3%A0nh%20%C4%91%C3%BAng%20th%E1%BB%9Di%20g%20..."
-                    data-pin-log="button_pinit"
-                    data-pin-href="https://www.pinterest.com/pin/create/button/?guid=KC7w8v1bvF_1-1&amp;url=https%3A%2F%2Ftravel.com.vn%2Fdu-lich-viet-nam.aspx&amp;media=https%3A%2F%2Ftravel.com.vn%2Fimages%2Fdestination%2FLarge%2F1109132557-VN%20220x145.jpg&amp;description=Du%20l%E1%BB%8Bch%20trong%20n%C6%B0%E1%BB%9Bc%20lu%C3%B4n%20l%C3%A0%20l%E1%BB%B1a%20ch%E1%BB%8Dn%20tuy%E1%BB%87t%20v%E1%BB%9Di.%20%C4%90%C6%B0%E1%BB%9Dng%20b%E1%BB%9D%20bi%E1%BB%83n%20d%C3%A0i%20h%C6%A1n%203260km%2C%20nh%E1%BB%AFng%20khu%20b%E1%BA%A3o%20t%E1%BB%93n%20thi%C3%AAn%20nhi%C3%AAn%20tuy%E1%BB%87t%20v%E1%BB%9Di%2C%20nh%E1%BB%AFng%20th%C3%A0nh%20ph%E1%BB%91%20nh%E1%BB%99n%20nh%E1%BB%8Bp%2C%20nh%E1%BB%AFng%20di%20t%C3%ADch%20l%E1%BB%8Bch%20s%E1%BB%AD%20h%C3%A0o%20h%C3%B9ng%2C%20n%E1%BB%81n%20v%C4%83n%20h%C3%B3a%20%C4%91%E1%BB%99c%20%C4%91%C3%A1o%20v%C3%A0%20h%E1%BA%A5p%20d%E1%BA%ABn%2C%20c%C3%B9ng%20m%E1%BB%99t%20danh%20s%C3%A1ch%20d%C3%A0i%20nh%E1%BB%AFng%20m%C3%B3n%20%C4%83n%20ngon%20nh%E1%BA%A5t%20th%E1%BA%BF%20gi%E1%BB%9Bi%2C%20Vi%E1%BB%87t%20Nam%20c%C3%B3%20t%E1%BA%A5t%20c%E1%BA%A3%20nh%E1%BB%AFng%20%C4%91i%E1%BB%81u%20%C4%91%C3%B3.%20V%E1%BB%9Bi%20l%E1%BB%8Bch%20tr%C3%ACnh%20d%C3%A0y%2C%20kh%E1%BB%9Fi%20h%C3%A0nh%20%C4%91%C3%BAng%20th%E1%BB%9Di%20g%20...">Lưu</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- list-tintuc Tour -->
-  <!--Home Tour  -->
-  <section class="container-custom">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 text-11">
-          <div class="home-tour">
-            <div class="tinpl">
-              <div class="caption">
-                <div>
-                  <h5><a href="#" title="Tin tức &amp; sự kiện">TOUR TRONG NƯỚC</a></h5>
-                  <span class="cbg"></span>
-                </div>
-              </div>
-            </div>
-            <div class="popular-packages">
-              <div class="col-sm-12">
-                <div class="row">
-                  <div class="col-sm-4">
-                    <div class="thumbnail block-tour shadow">
-                      <a href="#" title="Khám phá miền Bắc: Hà Nội - Hạ Long - Yên Tử - Sapa">
-                        <img class="img-rounded" src="images/icons/hq.jpg" alt="">
-                      </a>
-                      <div class="caption">
-                        <a class="title-tour" href="#" title="Khám phá miền Bắc: Hà Nội - Hạ Long - Yên Tử - Sapa">Khám
-                          phá miền Bắc: Hà Nội - Hạ
-                          Long - Yên Tử - Sapa</a>
-                        <i class="fa fa-clock-o"></i> <span>16/03/2019</span>
-                        <a class="fright" href="#">Ngày
-                          khác</a>
-                      </div>
-                      <div class="bottom ">
-                        <i class="fa fa-money"></i>
-                        <span>7.990.000 vnđ</span>
-                        <a href="#" class="text-center btn btn-second">ĐẶT NGAY</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="thumbnail block-tour shadow">
-                      <a href="#" title="Du Lịch Hà Nội - Bái Đính - Tràng An - Hạ Long - Yên Tử - Sapa">
-                        <img class="img-rounded" src="images/icons/hoian.jpg" alt="">
-                      </a>
-                      <div class="caption">
-                        <a class="title-tour" href="#"
-                          title="Du Lịch Hà Nội - Bái Đính - Tràng An - Hạ Long - Yên Tử - Sapa">Du Lịch Hà Nội - Bái
-                          Đính - Tràng An - Hạ Long - Yên Tử - Sapa</a>
-                        <i class="fa fa-clock-o"></i> <span>07/03/2019</span>
-                        <a class="fright" href="#">Ngày khác</a>
-                      </div>
-                      <div class="bottom ">
-                        <i class="fa fa-money"></i>
-                        <span>6.290.000 vnđ</span>
-                        <a href="#" class="text-center btn btn-second">ĐẶT NGAY</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="thumbnail block-tour shadow">
-                      <a href="#" title="Đà Nẵng - Bà Nà - Hội An - Huế - ĐộNg Phong Nha">
-                        <img class="img-rounded" src="images/icons/tl2.jpg" alt="">
-                      </a>
-                      <div class="caption">
-                        <a class="title-tour" href="/tour/da-nang-ba-na-hoi-an-hue-dong-phong-nha-2"
-                          title="Đà Nẵng - Bà Nà - Hội An - Huế - ĐộNg Phong Nha">Đà Nẵng - Bà Nà - Hội An - Huế - ĐộNg
-                          Phong Nha</a>
-                        <i class="fa fa-clock-o"></i> <span>07/03/2019</span>
-                        <a class="fright" href="#">Ngày khác</a>
-                      </div>
-                      <div class="bottom ">
-                        <i class="fa fa-money"></i>
-                        <span>3.550.000 vnđ</span>
-                        <a href="#" class="text-center btn btn-second">ĐẶT NGAY</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="thumbnail block-tour shadow">
-                      <a href="#" title="Đà Nẵng - Bà Nà - Hội An - Huế - Động Phong Nha">
-                        <img class="img-rounded" src="images/icons/hoian.jpg" alt="">
-                      </a>
-                      <div class="caption">
-                        <a class="title-tour" href="#" title="Đà Nẵng - Bà Nà - Hội An - Huế - Động Phong Nha">Đà Nẵng -
-                          Bà Nà - Hội An - Huế - Động
-                          Phong Nha</a>
-                        <i class="fa fa-clock-o"></i> <span>09/03/2019</span>
-                        <a class="fright" href="#">Ngày khác</a>
-                      </div>
-                      <div class="bottom ">
-                        <i class="fa fa-money"></i>
-                        <span>3.950.000 vnđ</span>
-                        <a href="#" class="text-center btn btn-second">ĐẶT NGAY</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="thumbnail block-tour shadow">
-                      <a href="#" title="Du Lịch Miền Tây: Tiền Giang - Cần Thơ">
-                        <img class="img-rounded" src="images/icons/tl2.jpg" alt="">
-                      </a>
-                      <div class="caption">
-                        <a class="title-tour" href="#" title="Du Lịch Miền Tây: Tiền Giang - Cần Thơ">Du Lịch Miền Tây:
-                          Tiền Giang - Cần Thơ</a>
-                        <i class="fa fa-clock-o"></i> <span>23/03/2019</span>
-                        <a class="fright" href="#">Ngày khác</a>
-                      </div>
-                      <div class="bottom ">
-                        <i class="fa fa-money"></i>
-                        <span>1.490.000 vnđ</span>
-                        <a href="#" class="text-center btn btn-second">ĐẶT NGAY</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="thumbnail block-tour shadow">
-                      <a href="#" title="Trải Nghiệm Miền Tây: Đồng Tháp - Châu Đốc - Hà Tiên - Cần Thơ">
-                        <img class="img-rounded" src="images/icons/hoian.jpg" alt="">
-                      </a>
-                      <div class="caption">
-                        <a class="title-tour" href="#"
-                          title="Trải Nghiệm Miền Tây: Đồng Tháp - Châu Đốc - Hà Tiên - Cần Thơ">Trải Nghiệm Miền Tây:
-                          Đồng Tháp - Châu Đốc - Hà Tiên - Cần Thơ</a>
-                        <i class="fa fa-clock-o"></i> <span>07/03/2019</span>
-                        <a class="fright" href="#">Ngày khác</a>
-                      </div>
-                      <div class="bottom ">
-                        <i class="fa fa-money"></i>
-                        <span>3.890.000 vnđ</span>
-                        <a href="#" class="text-center btn btn-second">ĐẶT NGAY</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-12">
-                    <div class="view-page">
-                      <ul class="pagination">
-                        <li class="first-child"><a class="active" href="#">1</a></li>
-                        <li><a href="#">2</a></li>
-                        <li><a href="#">3</a></li>
-                        <li><a href="#">4</a></li>
-                        <li class="last-child"><a href="#"><i class="fa fa-angle-right"></i></a></li>
+          <!--list-tintuc Tour  -->
+          <section class="container-custom">
+            <div id="list-tintuc" class="tintuc container">
+              <div class="row item-tintuc tingioithieutour ">
+                  <div class="col-md-12 col-sm-12 col-xs-12">
+                      <ul class="list-menu">
+                        <li><a href="#" title="Du lịch Đà Lạt">
+                        <img src="images/icons/da-lat.png" alt=""> Du lịch Đà Lạt</a></li>
+                        <li><a href="#" title="Du lịch Phan Thiết">
+                        <img src="images/icons/phan-thiet.png" alt=""> Du lịch Phan Thiết</a></li>
+                        <li><a href="#" title="Du lịch Nha Trang">
+                        <img src="images/icons/nha-trang.png" alt=""> Du lịch Nha Trang</a></li>
+                        <li><a href="/tour-tay-nguyen" title="Du lịch Tây Nguyên">
+                        <img src="images/icons/tay-nguyen.png" alt=""> Du lịch Tây Nguyên</a></li>
+                        <li><a href="/tour-mien-trung" title="Du lịch Miền Trung">
+                        <img src="images/icons/mien-trung.png" alt=""> Du lịch Miền Trung</a></li>
+                        <li><a href="/tour-du-lich-mien-tay" title="Du lịch Miền Tây">
+                        <img src="images/icons/mien-tay.png" alt=""> Du lịch Miền Tây</a></li>
                       </ul>
                     </div>
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                  <div>
+                    <div class="frame-tintuc">
+                      <h1><a href="#">
+                        <span class="title">Du lịch trong nước</span></a></h1>
+                    </div>
+                    <div class="mota-tintuc">
+                      <img src="/images/icons/hoian.jpg" alt="Du lịch trong nước"
+                        class="img-responsive hidden-lg hidden-md hidden-sm">
+                      Du lịch trong nước luôn là lựa chọn tuyệt vời. Đường bờ biển dài hơn 3260km, những khu bảo tồn thiên nhiên
+                      tuyệt vời, những thành phố nhộn nhịp, những di tích lịch sử hào hùng, nền văn hóa độc đáo và hấp dẫn, cùng
+                      một danh sách dài những món ăn ngon nhất thế giới, Việt Nam có tất cả những điều đó. Với lịch trình dày,
+                      khởi hành đúng thời gian cam kết, Vietravel là công ty lữ hành uy tín nhất hiện nay tại Việt Nam, luôn sẵn
+                      sàng phục vụ du khách mọi lúc, mọi nơi, đảm bảo tính chuyên nghiệp và chất lượng dịch vụ tốt nhất thị
+                      trường
+                    </div>
+                    <div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
+          </section>
+        
+          <!-- list-tintuc Tour -->
+          <!--Home Tour  -->
+          <section class="container-custom">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12 text-11">
+                  <div class="home-tour">
+                    <div class="tinpl">
+                      <div class="caption">
+                        <div>
+                          <h5><a href="#" title="Tin tức &amp; sự kiện">TOUR TRONG NƯỚC</a></h5>
+                          <span class="cbg"></span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="popular-packages">
+                      <div class="col-sm-12">
+                        <div class="row">
+                          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <div class="thumbnail block-tour shadow">
+                              <a href="#" title="Khám phá miền Bắc: Hà Nội - Hạ Long - Yên Tử - Sapa">
+                                <img class="img-rounded" src="images/icons/hq.jpg" alt="">
+                              </a>
+                              <div class="caption">
+                                <a class="title-tour" href="#" title="Khám phá miền Bắc: Hà Nội - Hạ Long - Yên Tử - Sapa">Khám
+                                  phá miền Bắc: Hà Nội - Hạ
+                                  Long - Yên Tử - Sapa</a>
+                                <i class="fa fa-clock-o"></i> <span>16/03/2019</span>
+                                <a class="fright" href="#">Ngày
+                                  khác</a>
+                              </div>
+                              <div class="bottom ">
+                                <i class="fa fa-money"></i>
+                                <span>7.990.000 vnđ</span>
+                                <a href="#" class="text-center btn btn-second">ĐẶT NGAY</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <div class="thumbnail block-tour shadow">
+                              <a href="#" title="Du Lịch Hà Nội - Bái Đính - Tràng An - Hạ Long - Yên Tử - Sapa">
+                                <img class="img-rounded" src="images/icons/hoian.jpg" alt="">
+                              </a>
+                              <div class="caption">
+                                <a class="title-tour" href="#"
+                                  title="Du Lịch Hà Nội - Bái Đính - Tràng An - Hạ Long - Yên Tử - Sapa">Du Lịch Hà Nội - Bái
+                                  Đính - Tràng An - Hạ Long - Yên Tử - Sapa</a>
+                                <i class="fa fa-clock-o"></i> <span>07/03/2019</span>
+                                <a class="fright" href="#">Ngày khác</a>
+                              </div>
+                              <div class="bottom ">
+                                <i class="fa fa-money"></i>
+                                <span>6.290.000 vnđ</span>
+                                <a href="#" class="text-center btn btn-second">ĐẶT NGAY</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <div class="thumbnail block-tour shadow">
+                              <a href="#" title="Đà Nẵng - Bà Nà - Hội An - Huế - ĐộNg Phong Nha">
+                                <img class="img-rounded" src="images/icons/tl2.jpg" alt="">
+                              </a>
+                              <div class="caption">
+                                <a class="title-tour" href="/tour/da-nang-ba-na-hoi-an-hue-dong-phong-nha-2"
+                                  title="Đà Nẵng - Bà Nà - Hội An - Huế - ĐộNg Phong Nha">Đà Nẵng - Bà Nà - Hội An - Huế - ĐộNg
+                                  Phong Nha</a>
+                                <i class="fa fa-clock-o"></i> <span>07/03/2019</span>
+                                <a class="fright" href="#">Ngày khác</a>
+                              </div>
+                              <div class="bottom ">
+                                <i class="fa fa-money"></i>
+                                <span>3.550.000 vnđ</span>
+                                <a href="#" class="text-center btn btn-second">ĐẶT NGAY</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <div class="thumbnail block-tour shadow">
+                              <a href="#" title="Đà Nẵng - Bà Nà - Hội An - Huế - Động Phong Nha">
+                                <img class="img-rounded" src="images/icons/hoian.jpg" alt="">
+                              </a>
+                              <div class="caption">
+                                <a class="title-tour" href="#" title="Đà Nẵng - Bà Nà - Hội An - Huế - Động Phong Nha">Đà Nẵng -
+                                  Bà Nà - Hội An - Huế - Động
+                                  Phong Nha</a>
+                                <i class="fa fa-clock-o"></i> <span>09/03/2019</span>
+                                <a class="fright" href="#">Ngày khác</a>
+                              </div>
+                              <div class="bottom ">
+                                <i class="fa fa-money"></i>
+                                <span>3.950.000 vnđ</span>
+                                <a href="#" class="text-center btn btn-second">ĐẶT NGAY</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <div class="thumbnail block-tour shadow">
+                              <a href="#" title="Du Lịch Miền Tây: Tiền Giang - Cần Thơ">
+                                <img class="img-rounded" src="images/icons/tl2.jpg" alt="">
+                              </a>
+                              <div class="caption">
+                                <a class="title-tour" href="#" title="Du Lịch Miền Tây: Tiền Giang - Cần Thơ">Du Lịch Miền Tây:
+                                  Tiền Giang - Cần Thơ</a>
+                                <i class="fa fa-clock-o"></i> <span>23/03/2019</span>
+                                <a class="fright" href="#">Ngày khác</a>
+                              </div>
+                              <div class="bottom ">
+                                <i class="fa fa-money"></i>
+                                <span>1.490.000 vnđ</span>
+                                <a href="#" class="text-center btn btn-second">ĐẶT NGAY</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <div class="thumbnail block-tour shadow">
+                              <a href="#" title="Trải Nghiệm Miền Tây: Đồng Tháp - Châu Đốc - Hà Tiên - Cần Thơ">
+                                <img class="img-rounded" src="images/icons/hoian.jpg" alt="">
+                              </a>
+                              <div class="caption">
+                                <a class="title-tour" href="#"
+                                  title="Trải Nghiệm Miền Tây: Đồng Tháp - Châu Đốc - Hà Tiên - Cần Thơ">Trải Nghiệm Miền Tây:
+                                  Đồng Tháp - Châu Đốc - Hà Tiên - Cần Thơ</a>
+                                <i class="fa fa-clock-o"></i> <span>07/03/2019</span>
+                                <a class="fright" href="#">Ngày khác</a>
+                              </div>
+                              <div class="bottom ">
+                                <i class="fa fa-money"></i>
+                                <span>3.890.000 vnđ</span>
+                                <a href="#" class="text-center btn btn-second">ĐẶT NGAY</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-12">
+                            <div class="view-page">
+                              <ul class="pagination">
+                                <li class="first-child"><a class="active" href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li class="last-child"><a href="#"><i class="fa fa-angle-right"></i></a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- End Home Tour -->
+      
     </div>
-  </section>
-  <!-- End Home Tour -->
-
+  <!-- End main -->
   <!-- Footer -->
   <footer>
     <section style="padding-bottom: 5px;">
       <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+              <div class="footer-categories">
+                  <a href="#" title="">Tour Hot</a>
+                  <a href="#" title="">Tour tháng </a>
+                  <a href="#" title="">Tour khuyến mãi</a>
+                  <a href="#" title="">Tour hấp dẫn</a>
+                  <a href="#" title="">106 Tour trong nước</a>
+                  <a href="#" title="">130 Tour nước ngoài</a>
+                </div>
+          </div>
+        </div>
         <div class="row">
           <div class="col-md-3 col-sm-4 footer-item">
             <h3 class="h4">ĐIỂM ĐẾN TRONG NƯỚC</h3>

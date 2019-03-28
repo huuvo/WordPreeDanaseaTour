@@ -84,9 +84,9 @@ body {
 
 
 /* main */
-.tintuc  {
+/* .tintuc  {
   padding-top: 30px;
-}
+} */
 
 #text-5 { 
   box-shadow: 0 3px 10px 0 rgba(0,0,0,0.05);
@@ -804,6 +804,29 @@ hr {
 }
 
 /* footer */
+
+footer .footer-categories {
+  min-height: 50px;
+  padding: 10px 0;
+  background: #eee;
+  margin-bottom: 30px;
+  text-align: center;
+}
+footer .footer-top {
+  padding: 0 0 50px;
+}
+
+footer .footer-categories a {
+  border: 1px solid #29c314;
+  border-radius: 4px;
+  margin-left: 5px;
+  line-height: 30px;
+  padding: 0 15px;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 5px;
+  color: #29c314;
+}
 
 footer section {
   background: #29c314;

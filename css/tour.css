@@ -207,3 +207,31 @@ img {
     border-radius: 3px;
     padding: 8px 0;
 }
+
+ul.list-menu li {
+    list-style: none;
+}
+
+ul.list-menu {
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+    border-bottom: 2px solid #29c314;
+    margin: 15px 0;
+}
+ul.list-menu li a {
+    padding: 5px 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+img {
+    border: 0;
+    vertical-align: middle;
+}
+ul.list-menu li:hover {
+    background-color: #29c314;
+}
+
+.title {
+    color: #29c314;
+}
